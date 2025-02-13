@@ -29,7 +29,7 @@ Collect your data and create a datasets.csv file. (For us at TU/e, this is datas
 5. Annotation path --> (String)path to annotation nifti file. Shoud end in .nii.gz. 
 6. Label --> (String) Label, either B, (benign) M (malignant) or BL (borderline)
 7. Inclusion --> (Int) Whether or not sample should be included in this research. 1 or 0. 
-8. outlier -->(Int) Whether the sample is an easy outlier, such as dermoids. 1 for outlier, 0 for no-outlier. 
+8. outlier -->(Int) Whether the sample is an easy outlier, such as dermoids. 1 for outlier, 0 for no-outlier. (This is not used in the SPIE publication, so it can be skipped.)
 
 - [**REQUIRED**] Run the preprocessing (`/ovacadx/scripts/preprocess_data.py --data_path
 "Path to original dataset with datasets.csv"
