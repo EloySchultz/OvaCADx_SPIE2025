@@ -1,0 +1,48 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: cclaessens-ovacadx-dino
+  namespace: colon
+spec:
+  #ttlSecondsAfterFinished: 100
+  backoffLimit: 0
+  template:
+    spec:
+      securityContext:
+        runAsUser: 1020
+        runAsGroup: 1012
+      restartPolicy: Never
+      containers:
+        - name: downstream-container
+          image: "cclaess/misc:v5"
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+          - mountPath: /share/colon
+            name: cephfs
+          - mountPath: /dev/shm
+            name: dshm
+          resources:
+            limits:
+              nvidia.com/gpu: 2 # requesting 2 GPU
+              cpu: "44"
+              memory: "88Gi"
+            requests:
+              nvidia.com/gpu: 2 # requesting 2 GPU
+              cpu: "44"
+              memory: "88Gi"
+          env:
+          command: ["/bin/bash", "-c", "--"]
+          args: ["/share/colon/cclaessens/ovacadx/scripts/pretrain_slice_encoder.sh"]
+      volumes:
+        - name: cephfs
+          persistentVolumeClaim:
+            claimName: cephfs-colon-pvc
+        - name: dshm
+          emptyDir:
+            medium: Memory
+
+      nodeSelector:
+      #  nvidia.com/gpu.product: NVIDIA-RTX-A4500
+      #  nvidia.com/gpu.product: NVIDIA-TITAN-RTX
+      #  nvidia.com/gpu.product: NVIDIA-Geforce-RTX-2080-Ti
+        nvidia.com/gpu.product: NVIDIA-GeForce-RTX-3090-Ti

@@ -1,0 +1,238 @@
+CZE_groen_frankenstein/B-M/CZE_M38/MASKS/CZE_M38_RM.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B44/MASKS/CZE_B44_RB.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B44/MASKS/CZE_B44_LB.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B44/IMAGES/CZE_B44.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B51/MASKS/CZE_B51.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B51/IMAGES/CZE_B51.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B56/MASKS/CZE_B56_right.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B56/MASKS/CZE_B56_left.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B56/IMAGES/CZE_B56.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B38/MASKS/CZE_B38.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B38/IMAGES/CZE_B38.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B12/MASKS/CZE_B12_RB.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B12/IMAGES/._B12.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M31/MASKS/CZE_M31_RM.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M47/MASKS/CZE_M47.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M47/IMAGES/CZE_M47.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M61/MASKS/CZE_M61.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M61/IMAGES/CZE_M61.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M39/MASKS/CZE_M39.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M39/IMAGES/CZE_M39.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M07/MASKS/CZE_M07_L.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B48/MASKS/CZE_B48.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B48/IMAGES/CZE_B48.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B01/MASKS/CZE_B01.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B01/IMAGES/CZE_B01.nii.gz
+missing_2/CZE_B01/MASKS/MASKS/B01.nii.gz
+missing_2/CZE_B01/MASKS/IMAGES/B01.nii.gz
+missing_2/CZE_B01/IMAGES/B01.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M43/MASKS/CZE_M43.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M43/IMAGES/CZE_M43.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M63/MASKS/CZE_M63.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M63/IMAGES/CZE_M63.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M42/MASKS/CZE_M42.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M42/IMAGES/CZE_M42.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B28/MASKS/CZE_B28.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B28/IMAGES/CZE_B28.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M48/MASKS/CZE_M48.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M48/IMAGES/CZE_M48.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M69/MASKS/CZE_M69.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M69/IMAGES/CZE_M69.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B30/MASKS/CZE_B30.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B30/IMAGES/CZE_B30.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M35/MASKS/CZE_M35_RM.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M34/MASKS/CZE_M34.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M34/IMAGES/CZE_M34.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M50/MASKS/CZE_M50.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M50/IMAGES/CZE_M50.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M46/MASKS/CZE_M46.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M46/IMAGES/CZE_M46.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M51/MASKS/CZE_M51.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M51/IMAGES/CZE_M51.nii.gz
+CZE_groen_frankenstein/B-M/CZE_B31/._B31.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M17/MASKS/CZE_M17.nii.gz
+CZE_groen_frankenstein/B-M/CZE_M17/IMAGES/CZE_M17.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M109/MASKS/BRE_M109.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M109/IMAGES/BRE_M109.nii.gz
+missing_2/BRE_B102/MASKS/BRE_B102.nii.gz
+missing_2/BRE_B102/IMAGES/BRE_B102.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_B102/MASKS/BRE_B102.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_B102/IMAGES/BRE_B102.nii.gz
+missing_2/BRE_B109/MASKS/BRE_B109.nii.gz
+missing_2/BRE_B109/IMAGES/BRE_B109.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M074/MASKS/BRE_M074.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M074/IMAGES/BRE_M074.nii.gz
+missing_2/BRE_B217/MASKS/BRE_B217.nii.gz
+missing_2/BRE_B217/IMAGES/BRE_B217.nii.gz
+missing_2/BRE_B157/MASKS/BRE_B157.nii.gz
+missing_2/BRE_B157/IMAGES/BRE_B157.nii.gz
+missing_2/BRE_B133/MASKS/BRE_B133.nii.gz
+missing_2/BRE_B133/IMAGES/BRE_B133.nii.gz
+missing_2/BRE_B215/MASKS/BRE_B215.nii.gz
+missing_2/BRE_B215/IMAGES/BRE_B215.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M071/MASKS/BRE_M071.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M071/IMAGES/BRE_M071.nii.gz
+missing_2/BRE_B201/MASKS/BRE_B201.nii.gz
+missing_2/BRE_B201/IMAGES/BRE_B201.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_B181/MASKS/BRE_B181.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_B181/IMAGES/BRE_B181.nii.gz
+AVL/AVL_MB/AVL_M004/MASKS/AVL_M004.nii.gz
+AVL/AVL_MB/AVL_M004/IMAGES/AVL_M004.nii.gz
+missing_2/BRE_M050/MASKS/BRE_M050.nii.gz
+missing_2/BRE_M050/IMAGES/BRE_M050.nii.gz
+BRE_2/BRE_II/BRE_MB_II/BRE_B197-L 4.5cm/MASKS/BRE_B197-L.nii.gz
+BRE_2/BRE_II/BRE_MB_II/BRE_B197-L 4.5cm/IMAGES/BRE_B197-L.nii.gz
+missing_2/BRE_B030/MASKS/BRE_B030.nii.gz
+missing_2/BRE_B030/IMAGES/BRE_B030.nii.gz
+missing_2/BRE_B199/MASKS/BRE_B199.nii.gz
+missing_2/BRE_B199/IMAGES/BRE_B199.nii.gz
+missing_2/BRE_B192/MASKS/BRE_B192.nii.gz
+missing_2/BRE_B192/IMAGES/BRE_B192.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M103/MASKS/BRE_M103.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M103/IMAGES/BRE_M103.nii.gz
+missing_2/CZE_M10/MASKS/NEW/M10.nii.gz
+missing/CZE_M10/MASKS/CZE_M10.nii.gz
+missing/CZE_M10/IMAGES/CZE_M10.nii.gz
+BRE_2/BRE_II/BRE_MB_II/BRE_B208-L 9cm/MASKS/BRE_B208_L.nii.gz
+BRE_2/BRE_II/BRE_MB_II/BRE_B208-L 9cm/IMAGES/BRE_B208_L.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_B066/MASKS/BRE_B066.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_B066/IMAGES/BRE_B066.nii.gz
+missing_2/BRE_B212/MASKS/BRE_B212.nii.gz
+missing_2/BRE_B212/IMAGES/BRE_B212.nii.gz
+missing_2/BRE_B105/MASKS/BRE_B105.nii.gz
+missing_2/BRE_B105/IMAGES/BRE_B105.nii.gz
+missing_2/BRE_M009/MASKS/BRE_M009.nii.gz
+missing_2/BRE_M009/IMAGES/BRE_M009.nii.gz
+missing_2/CZE_M44-L/IMAGES/M44.nii.gz
+missing/CZE_M44/MASKS/CZE_M44.nii.gz
+missing/CZE_M44/IMAGES/CZE_M44.nii.gz
+missing_2/BRE_B047_L/MASKS/BRE_B047_L.nii.gz
+missing_2/BRE_B047_L/IMAGES/BRE_B047_L.nii.gz
+Voorlopig/BRE_B054_L - 4.5cm/MASKS/BRE_B054_L.nii.gz
+Voorlopig/BRE_B054_L - 4.5cm/IMAGES/BRE_B054_L.nii.gz
+missing_2/BRE_B074/MASKS/BRE_B074.nii.gz
+missing_2/BRE_B074/IMAGES/BRE_B074.nii.gz
+merged avl-cze/AVL_B009/MASKS/AVL_B009.nii.gz
+merged avl-cze/AVL_B009/IMAGES/AVL_B009.nii.gz
+missing_2/BRE_M038/MASKS/BRE_M038.nii.gz
+missing_2/BRE_M038/IMAGES/BRE_M038.nii.gz
+missing/AVL_M017/MASKS/AVL_M017.nii.gz
+missing/AVL_M017/IMAGES/AVL_M017.nii.gz
+missing_2/BRE_B207/MASKS/BRE_B207.nii.gz
+missing_2/BRE_B207/IMAGES/BRE_B207.nii.gz
+missing_2/BRE_B091/MASKS/BRE_B091.nii.gz
+missing_2/BRE_B091/IMAGES/BRE_B091.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M075/MASKS/BRE_M075.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M075/IMAGES/BRE_M075.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M002/MASKS/BRE_M002.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M002/IMAGES/BRE_M002.nii.gz
+missing_2/BRE_B205/MASKS/BRE_B205.nii.gz
+missing_2/BRE_B205/IMAGES/BRE_B205.nii.gz
+merged avl-cze/AVL_M006/MASKS/AVL_M006.nii.gz
+merged avl-cze/AVL_M006/IMAGES/AVL_M006.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M069/MASKS/BRE_M069.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M069/IMAGES/BRE_M069.nii.gz
+merged avl-cze/AVL_B003/MASKS/AVL_B003.nii.gz
+merged avl-cze/AVL_B003/IMAGES/AVL_B003.nii.gz
+missing/CZE_B20/MASKS/CZE_B20.nii.gz
+missing/CZE_B20/IMAGES/CZE_B20.nii.gz
+missing_2/BRE_B211/MASKS/BRE_B211.nii.gz
+missing_2/BRE_B211/IMAGES/BRE_B211.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M107/MASKS/BRE_M107.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M107/IMAGES/BRE_M107.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_B078/MASKS/BRE_B078.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_B078/IMAGES/BRE_B078.nii.gz
+missing_2/BRE_M008/MASKS/BRE_M008.nii.gz
+missing_2/BRE_M008/IMAGES/BRE_M008.nii.gz
+missing/AVL_M019/MASKS/AVL_M019.nii.gz
+missing/AVL_M019/IMAGES/AVL_M019.nii.gz
+merged avl-cze/AVL_B010-R/MASKS/AVL_B010_R.nii.gz
+merged avl-cze/AVL_B010-R/IMAGES/AVL_B010_R.nii.gz
+merged avl-cze/AVL_B010 -L/MASKS/AVL_B010_L.nii.gz
+merged avl-cze/AVL_B010 -L/IMAGES/AVL_B010_L.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M122/MASKS/BRE_M122.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M122/IMAGES/BRE_M122.nii.gz
+missing_2/BRE_B209/MASKS/BRE_B209.nii.gz
+missing_2/BRE_B209/IMAGES/BRE_B209.nii.gz
+BRE_2/BRE_II/BRE_MB_II/BRE_M044-R/MASKS/BRE_M044_R.nii.gz
+BRE_2/BRE_II/BRE_MB_II/BRE_M044-R/IMAGES/BRE_M044_R.nii.gz
+missing_2/AVL_M015/MASKS/AVL_M015.nii.gz
+missing_2/AVL_M015/IMAGES/AVL_M015.nii.gz
+missing_2/BRE_B106/MASKS/BRE_B106.nii.gz
+missing_2/BRE_B106/IMAGES/BRE_B106.nii.gz
+missing_2/BRE_M006/MASKS/BRE_M006.nii.gz
+missing_2/BRE_M006/IMAGES/BRE_M006.nii.gz
+merged avl-cze/CZE_M03/MASKS/CZE_M03.nii.gz
+merged avl-cze/CZE_M03/IMAGES/CZE_M03.nii.gz
+missing_2/BRE_B080/MASKS/BRE_B080.nii.gz
+missing_2/BRE_B080/IMAGES/BRE_B080.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M129/MASKS/BRE_M129.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M129/IMAGES/BRE_M129.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M087/MASKS/BRE_M087.nii.gz
+BRE_2/BRE_I/BRE_MB_I/BRE_M087/IMAGES/BRE_M087.nii.gz
+missing_2/BRE_B087/MASKS/BRE_B087.nii.gz
+missing_2/BRE_B087/IMAGES/BRE_B087.nii.gz
+merged avl-cze/AVL_M003/MASKS/AVL_M003.nii.gz
+merged avl-cze/AVL_M003/IMAGES/AVL_M003.nii.gz
+missing_2/BRE_B195_L 32cm/BRE_M038/MASKS/BRE_M038.nii.gz
+missing_2/BRE_B195_L 32cm/BRE_M038/IMAGES/BRE_M038.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_B195-L 32cm/MASKS/BRE_B195-L.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_B195-L 32cm/IMAGES/BRE_B195-L.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_B195-R 35cm/MASKS/BRE_B195-R.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_B195-R 35cm/IMAGES/BRE_B195-R.nii.gz
+missing_2/BRE_B216/MASKS/BRE_B216.nii.gz
+missing_2/BRE_B216/IMAGES/BRE_B216.nii.gz
+missing_2/BRE_B079/MASKS/BRE_B079.nii.gz
+missing_2/BRE_B079/IMAGES/BRE_B079.nii.gz
+missing_2/BRE_B185/MASKS/BRE_B185.nii.gz
+missing_2/BRE_B185/IMAGES/BRE_B185.nii.gz
+missing_2/BRE_B206/MASKS/BRE_B206.nii.gz
+missing_2/BRE_B206/IMAGES/BRE_B206.nii.gz
+missing_2/AVL_B005/MASKS/AVL_B005.nii
+missing_2/AVL_B005/IMAGES/AVL_B005.nii.gz
+missing_2/BRE_B140/MASKS/BRE_B140.nii.gz
+missing_2/BRE_B140/IMAGES/BRE_B140.nii.gz
+missing_2/AVL_M001/MASKS/AVL_M001.nii.gz
+missing_2/AVL_M001/IMAGES/AVL_M001.nii.gz
+Voorlopig/BRE_M082/MASKS/BRE_M082.nii.gz
+Voorlopig/BRE_M082/IMAGES/BRE_M082.nii.gz
+missing_2/BRE_M015-R/MASKS/BRE_M015-R.nii.gz
+missing_2/BRE_M015-R/IMAGES/BRE_M015-R.nii.gz
+missing_2/AVL_M022/MASKS/AVL_M022_R.nii.gz
+merged avl-cze/AVL_M022/MASKS/AVL_M022.nii.gz
+merged avl-cze/AVL_M022/IMAGES/AVL_M022.nii.gz
+merged avl-cze/AVL_B006/MASKS/AVL_B006.nii.gz
+merged avl-cze/AVL_B006/IMAGES/AVL_B006.nii.gz
+missing_2/AVL_M011/MASKS/AVL_M011.nii.gz
+missing_2/AVL_M011/IMAGES/AVL_M011.nii.gz
+missing_2/BRE_M005-L 6.5cm/MASKS/BRE-M005-L.nii.gz
+missing_2/BRE_M005-L 6.5cm/IMAGES/BRE-M005-L.nii.gz
+missing_2/AVL_M013/MASKS/AVL_M013_R.nii.gz
+missing_2/BRE_B198/MASKS/BRE_B198.nii.gz
+missing_2/BRE_B198/IMAGES/BRE_B198.nii.gz
+merged avl-cze/AVL_B008/MASKS/AVL_B008.nii.gz
+merged avl-cze/AVL_B008/IMAGES/AVL_B008.nii.gz
+merged avl-cze/AVL_M021/MASKS/AVL_M021.nii.gz
+merged avl-cze/AVL_M021/IMAGES/AVL_M021.nii.gz
+merged avl-cze/AVL_M018/MASKS/AVL_M018.nii.gz
+merged avl-cze/AVL_M018/IMAGES/AVL_M018.nii.gz
+missing_2/BRE_B085/MASKS/BRE_B085.nii.gz
+missing_2/BRE_B085/IMAGES/BRE_B085.nii.gz
+missing_2/BRE_B072/MASKS/BRE_B072.nii.gz
+missing_2/BRE_B072/IMAGES/BRE_B072.nii.gz
+missing_2/BRE_B204/MASKS/BRE_B204.nii.gz
+missing_2/BRE_B204/IMAGES/BRE_B204.nii.gz
+merged avl-cze/AVL_M005/MASKS/AVL_M005.nii.gz
+merged avl-cze/AVL_M005/IMAGES/AVL_M005.nii.gz
+merged avl-cze/AVL_M023/MASKS/AVL_M023.nii.gz
+merged avl-cze/AVL_M023/IMAGES/AVL_M023.nii.gz
+missing/BRE_M128-R/MASKS/BRE_M128-R.nii.gz
+missing/BRE_M128-R/IMAGES/BRE_M128_R.nii.gz
+missing/BRE_B222-L/MASKS/BRE_B222_L.nii.gz
+missing/BRE_B222-L/IMAGES/BRE_B222_L.nii.gz
+missing_2/BRE_B221/MASKS/BRE_B221.nii.gz
+missing_2/BRE_B221/IMAGES/BRE_B221.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M120/MASKS/BRE_M120.nii.gz
+BREbkdCZE/BREbkdCZE_MB/BRE_M120/IMAGES/bre_m120.nii.gz
+BRE_2/BRE_II/BRE_MB_II/BRE_M130_L/BRE_M130_L.nii.gz
+BRE_2/BRE_II/BRE_MB_II/BRE_M130_L/IMAGES/BRE_M130_L.nii.gz

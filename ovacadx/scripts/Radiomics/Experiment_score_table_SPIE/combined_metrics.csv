@@ -1,0 +1,7 @@
+Data,Model,AUC (IQR),Sensitivity (IQR),Specificity (IQR),ext. AUC
+Ovarian,3DCNN,0.602 (\textcolor{gray}{0.551} - \textcolor{gray}{0.654}),0.604 (\textcolor{gray}{0.538} - \textcolor{gray}{0.667}),0.519 (\textcolor{gray}{0.471} - \textcolor{gray}{0.569}),0.600
+Ovarian,MILCNN,0.775 (\textcolor{gray}{0.737} - \textcolor{gray}{0.810}),0.682 (\textcolor{gray}{0.619} - \textcolor{gray}{0.750}),0.674 (\textcolor{gray}{0.630} - \textcolor{gray}{0.720}),0.750
+Ovarian,Radiomics+NN,0.810 (\textcolor{gray}{0.775} - \textcolor{gray}{0.845}),0.760 (\textcolor{gray}{0.700} - \textcolor{gray}{0.818}),0.689 (\textcolor{gray}{0.644} - \textcolor{gray}{0.731}),0.750
+LIDC,3DCNN,0.921 (\textcolor{gray}{0.902} - \textcolor{gray}{0.937}),0.857 (\textcolor{gray}{0.829} - \textcolor{gray}{0.889}),0.864 (\textcolor{gray}{0.833} - \textcolor{gray}{0.893}),N/A
+LIDC,MILCNN,0.959 (\textcolor{gray}{0.948} - \textcolor{gray}{0.970}),0.899 (\textcolor{gray}{0.873} - \textcolor{gray}{0.921}),0.903 (\textcolor{gray}{0.875} - \textcolor{gray}{0.930}),N/A
+LIDC,Radiomics+NN,0.953 (\textcolor{gray}{0.939} - \textcolor{gray}{0.965}),0.870 (\textcolor{gray}{0.841} - \textcolor{gray}{0.896}),0.900 (\textcolor{gray}{0.871} - \textcolor{gray}{0.924}),N/A

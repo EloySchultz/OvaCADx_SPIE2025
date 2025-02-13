@@ -1,0 +1,566 @@
+Unnamed: 0,Patient ID,Tumor ID,Center,Image path,Annotation path,Label,Comments ES,Quality,Comment,Database,Updated DB,Inclusion,Outlier,Annotation,Revised,Revised by,Validation,New testset,Old test set,Reason in/exclusion testset,Internal testset,Internal testset tiny,External testset,outlier,status
+0,1,AVL_B001,AVL,missing_2/AVL_B001/IMAGES/AVL_B001.nii.gz,missing_2/AVL_B001/MASKS/AVL_B001.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,1,1,Complete
+1,2,AVL_B003,AVL,missing_2/AVL_B003/IMAGES/AVL_B003.nii.gz,missing_2/AVL_B003/MASKS/AVL_B003.nii.gz,B,"Artifacts visible on mutliple slices, bottom left. Also, some slices contain a horizontal line near the bottom of the tumor. ",2.0,geen definitieve PA --> nazoeken HE4,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,RMI >200,0,0,1,0,Complete
+2,3,AVL_B004,AVL,,,B,,,Geen adnex verwijderd tijdens OK,,,0,,,,,,,,,0,0,0,0,Missing
+3,4,AVL_B005,AVL,merged avl-cze/AVL_B005/IMAGES/AVL_B005.nii.gz,merged avl-cze/AVL_B005/MASKS/AVL_B005.nii.gz,B,Minor artifacting on left side. ,4.0,uterus myomatosus  geen ovariele pathologie,yes,,0,,,,,,,,,0,0,0,0,Complete
+4,5,AVL_B006,AVL,missing_2/AVL_B006/IMAGES/AVL_B006.nii.gz,missing_2/AVL_B006/MASKS/AVL_B006.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,0,0,1,0,Complete
+5,6,AVL_B008,AVL,missing_2/AVL_B008/IMAGES/AVL_B008.nii.gz,missing_2/AVL_B008/MASKS/AVL_B008.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200 en IOTA,0,0,1,0,Complete
+6,7,AVL_B009,AVL,missing_2/AVL_B009/IMAGES/AVL_B009.nii.gz,missing_2/AVL_B009/MASKS/AVL_B009.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,1,0,Complete
+7,8,AVL_B010_L,AVL,missing_2/AVL_B010_L/IMAGES/AVL_B010_L.nii.gz,missing_2/AVL_B010_L/MASKS/AVL_B010_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,1,0,Complete
+8,8,AVL_B010_R,AVL,missing_2/AVL_B010_R/IMAGES/AVL_B010_R.nii.gz,missing_2/AVL_B010_R/MASKS/AVL_B010_R.nii.gz,B,artifacts around border on left side,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI <200,0,0,1,0,Complete
+9,9,AVL_B011_L,AVL,missing/AVL_B011-L/IMAGES/AVL_B011_L.nii.gz,missing/AVL_B011-L/MASKS/AVL_B011-L.nii.gz,B,OK,5.0,Adnex links zonder afwijkingen. Hoort bij AVL_M020_R,yes,complete,0,Nee,Ja,NVT,,,,,,0,0,0,0,Complete
+10,9,AVL_M020_R,AVL,missing/AVL_M020-R/IMAGES/AVL_M020-R.nii.gz,missing/AVL_M020-R/MASKS/AVL_M020-R.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,1,0,Complete
+11,10,AVL_BL001,AVL,,,BL,,,Geen CT-beelden,,,0,BL,,,,,,,,0,0,0,0,Missing
+12,11,AVL_BL002,AVL,AVL/AVL_BORD/AVL_BL002/IMAGES/AVL_BL002.nii.gz,AVL/AVL_BORD/AVL_BL002/MASKS/AVL_BL002.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,1,0,Missing
+13,12,AVL_B012,AVL,missing_3/AVL_B012/IMAGES/AVL_B012.nii.gz,missing_3/AVL_B012/MASKS/AVL_B012.nii.gz,B,,,voorheen AVL_BL003,yes,complete,1,Nee,Ja,,,,0.0,,,0,0,1,0,Complete
+14,13,AVL_BL004,AVL,missing_2/AVL_BL004/IMAGES/AVL_BL004.nii.gz,missing_2/AVL_BL004/MASKS/AVL_BL004.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,1,0,Missing
+15,14,AVL_BL005,AVL,AVL/AVL_BORD/AVL_BL005/IMAGES/AVL_BL005.nii.gz,AVL/AVL_BORD/AVL_BL005/MASKS/AVL_BL005.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,1,0,Missing
+16,15,AVL_BL006,AVL,AVL/AVL_BORD/AVL_BL006/IMAGES/AVL_BL006.nii.gz,AVL/AVL_BORD/AVL_BL006/MASKS/AVL_BL006.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,1,0,Missing
+17,16,AVL_B013,AVL,missing_2/AVL_B013/IMAGES/AVL_B013.nii.gz,missing_2/AVL_B013/MASKS/AVL_B013.nii.gz,B,,,voorheen AVL_BL007,yes,complete,1,Nee,Ja,,,,1.0,,,0,0,1,0,Complete
+18,17,AVL_BL008,AVL,missing_2/AVL_BL008/IMAGES/AVL_BL008.nii.gz,missing_2/AVL_BL008/MASKS/AVL_BL008.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,1,0,Missing
+19,18,AVL_BL009,AVL,AVL/AVL_BORD/AVL_BL009/IMAGES/AVL_BL009.nii.gz,AVL/AVL_BORD/AVL_BL009/MASKS/AVL_BL009.nii.gz,BL,,,voorheen AVL_B002,yes,complete,1,BL,Ja,,,,,,,0,0,1,0,Missing
+20,19,AVL_M001,AVL,AVL/AVL_MB/AVL_M001/IMAGES/AVL_M001.nii.gz,AVL/AVL_MB/AVL_M001/MASKS/AVL_M001.nii.gz,M,Artifact on slice 33 right side. ,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,RMI >200 en IOTA,0,0,1,0,Complete
+21,20,AVL_M002,AVL,,,M,,,,,,0,,,,,,,,,0,0,0,0,Missing
+22,21,AVL_M003,AVL,missing_2/AVL_M003/IMAGES/AVL_M003.nii.gz,missing_2/AVL_M003/MASKS/AVL_M003.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200 en IOTA,0,0,1,0,Complete
+23,22,AVL_M004,AVL,missing_2/AVL_M004/IMAGES/AVL_M004.nii.gz,missing_2/AVL_M004/MASKS/AVL_M004.nii.gz,M,Artifacts on border of multiple slices,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI >200,0,0,1,0,Complete
+24,23,AVL_M005,AVL,missing_2/AVL_M005/IMAGES/AVL_M005.nii.gz,missing_2/AVL_M005/MASKS/AVL_M005.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI >200,0,0,1,0,Complete
+25,24,AVL_M006,AVL,missing_2/AVL_M006/IMAGES/AVL_M006.nii.gz,missing_2/AVL_M006/MASKS/AVL_M006.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,1,0,Complete
+26,25,AVL_M007,AVL,,,M,,,,,,0,,,,,,,,,0,0,0,0,Missing
+27,26,AVL_M008,AVL,,,M,,,PA bewezen,,,0,,,,,,,,,0,0,0,0,Missing
+28,27,AVL_M009_L,AVL,AVL/AVL_MB/AVL_M009-L 12cm/IMAGES/AVL_M009-L.nii.gz,AVL/AVL_MB/AVL_M009-L 12cm/MASKS/AVL_M009_L.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200 en IOTA,0,0,1,0,Complete
+29,27,AVL_M009_R,AVL,AVL/AVL_MB/AVL_M009-R 3.2cm/IMAGES/AVL_M009_R.nii.gz,AVL/AVL_MB/AVL_M009-R 3.2cm/MASKS/AVL_M009_R.nii.gz,M,OK,5.0,PA onbekend,yes,complete,0,Nee,Ja,NVT,,,,,,0,0,0,0,Complete
+30,28,AVL_M010,AVL,,,M,,,PA bewezen,,,0,,,,,,,,,0,0,0,0,Missing
+31,29,AVL_M011,AVL,AVL/AVL_MB/AVL_M011/IMAGES/AVL_M011.nii.gz,AVL/AVL_MB/AVL_M011/MASKS/AVL_M011.nii.gz,M,High frequency noise in border on right side,4.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,RMI >200 en IOTA,0,0,1,0,Complete
+32,30,AVL_M012,AVL,,,M,,,PA bewezen,,,0,,,,,,,,,0,0,0,0,Missing
+33,31,AVL_M013_L,AVL,missing_2/AVL_M013/IMAGES/AVL_M013.nii.gz,missing_2/AVL_M013/MASKS/AVL_M013_L.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,1,1,Complete
+34,31,AVL_M013_R,AVL,missing_2/AVL_M013/IMAGES/AVL_M013.nii.gz,missing_2/AVL_M013/MASKS/AVL_M013_R.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,1,1,Missing
+35,32,AVL_M014,AVL,missing_2/AVL_M014/IMAGES/AVL_M014.nii.gz,missing_2/AVL_M014/MASKS/AVL_M014.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,1,1,Complete
+36,33,AVL_M015,AVL,AVL/AVL_MB/AVL_M015/IMAGES/AVL_M015.nii.gz,AVL/AVL_MB/AVL_M015/MASKS/AVL_M015.nii.gz,M,"Artifacts on for example slice 38, but also on some other slices. ",2.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,RMI >200 en IOTA,0,0,1,0,Complete
+37,34,AVL_M016,AVL,missing_2/AVL_M016/IMAGES/AVL_M016.nii.gz,missing_2/AVL_M016/MASKS/AVL_M016.nii.gz,M,,,Kiemcel tumor,yes,complete,1,Nee,Ja,,,,0.0,1.0,RMI <200 en IOTA,0,0,1,0,Complete
+38,35,AVL_M017_L,AVL,missing_2/AVL_M017_L/IMAGES/AVL_M017_L.nii.gz,missing_2/AVL_M017_L/MASKS/AVL_M017_L.nii.gz,M,OK,5.0,toegevoegd missing_2,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,1,0,Complete
+39,35,AVL_M017_R,AVL,missing_2/AVL_M017_R/IMAGES/AVL_M017_R.nii.gz,missing_2/AVL_M017_R/MASKS/AVL_M017_R.nii.gz,M,,,toegevoegd missing_2,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,1,0,Complete
+40,36,AVL_M018,AVL,missing_2/AVL_M018/IMAGES/AVL_M018.nii.gz,missing_2/AVL_M018/MASKS/AVL_M018.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,0,0,1,0,Complete
+41,37,AVL_M019,AVL,missing_2/AVL_M019/IMAGES/AVL_M019.nii.gz,missing_2/AVL_M019/MASKS/AVL_M019.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,1,0,Complete
+42,38,AVL_M021,AVL,missing_2/AVL_M021/IMAGES/AVL_M021.nii.gz,missing_2/AVL_M021/MASKS/AVL_M021.nii.gz,M,,,,yes,complete,1,Nee,Ja,,,,1.0,0.0,RMI >200,0,0,1,0,Complete
+43,39,AVL_M022_L,AVL,missing_2/AVL_M022/IMAGES/AVL_M022.nii.gz,missing_2/AVL_M022/MASKS/AVL_M022_L.nii.gz,M,,,,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,1,0,Complete
+44,39,AVL_M022_R,AVL,missing_2/AVL_M022/IMAGES/AVL_M022.nii.gz,missing_2/AVL_M022/MASKS/AVL_M022_R.nii.gz,M,Minor artifacts on slice 52 and 53 (some small vertical lines) ,4.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI <200,0,0,1,0,Missing
+45,40,AVL_M023,AVL,missing_2/AVL_M023/IMAGES/AVL_M023.nii.gz,missing_2/AVL_M023/MASKS/AVL_M023.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI <200 en IOTA,0,0,1,0,Complete
+46,41,BRE_B001,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B001/IMAGES/BRE_B001.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B001/MASKS/BRE_B001.nii.gz,B,OK,5.0,"RMI 15, te benigne",yes,complete,1,EB,Ja,NVT,,,,,,0,0,0,1,Complete
+47,42,BRE_B002,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B002/IMAGES/BRE_B002.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B002/MASKS/BRE_B002.nii.gz,B,OK,5.0,"RMI 11, te benigne",yes,complete,1,EB,Ja,NVT,,,,,,0,0,0,1,Complete
+48,43,BRE_B003_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B003-L 5.3cm/IMAGES/BRE_B003-L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B003-L 5.3cm/MASKS/BRE_B003-L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+49,43,BRE_B003_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B003-R 7.5cm/IMAGES/BRE_B003-R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B003-R 7.5cm/MASKS/BRE_B003-R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,"RMI <200, tumor 2cm",0,0,0,0,Complete
+50,44,BRE_B004,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B004/IMAGES/BRE_B004.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B004/MASKS/BRE_B004.nii.gz,B,OK,5.0,,yes,complete,1,D,Ja,NVT,,,,,,0,0,0,1,Complete
+51,45,BRE_B005,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B005/IMAGES/BRE_B005.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B005/MASKS/BRE_B005.nii.gz,B,OK,5.0,"RMI 34, te benigne",yes,complete,1,EB,Ja,NVT,,,,,,0,0,0,1,Complete
+52,46,BRE_B006,BRE,missing_2/BRE_B006/IMAGES/BRE_B006.nii.gz,missing_2/BRE_B006/MASKS/BRE_B006.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+53,47,BRE_B007,BRE,missing_2/BRE_B007/IMAGES/BRE_B007.nii.gz,missing_2/BRE_B007/MASKS/BRE_B007.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+54,48,BRE_B008,BRE,missing_2/BRE_B008/IMAGES/BRE_B008.nii.gz,missing_2/BRE_B008/MASKS/BRE_B008.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+55,49,BRE_B010,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B010/IMAGES/BRE_B010.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B010/MASKS/BRE_B010.nii.gz,B,OK,5.0,RMI 17,yes,complete,1,EB,Ja,NVT,,,,,,0,0,0,1,Complete
+56,50,BRE_B011_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B011_L 3.5cm/IMAGES/BRE_B011_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B011_L 3.5cm/MASKS/BRE_B011_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200 en IOTA,0,0,0,0,Complete
+57,50,BRE_B011_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B011_R 3.5cm/IMAGES/BRE_B011_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B011_R 3.5cm/MASKS/BRE_B011_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200 en IOTA,0,0,0,0,Complete
+58,51,BRE_B013,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B013/IMAGES/BRE_B013.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B013/MASKS/BRE_B013.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+59,52,BRE_B014,BRE,missing_2/BRE_B014/IMAGES/BRE_B014.nii.gz,missing_2/BRE_B014/MASKS/BRE_B014.nii.gz,B,,,,Yes,complete,1,Nee,Ja,,,,1.0,0.0,RMI >200,1,0,0,0,Complete
+60,53,BRE_B016,BRE,missing_2/BRE_B016/IMAGES/BRE_B016.nii.gz,missing_2/BRE_B016/MASKS/BRE_B016.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+61,54,BRE_B017,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B017/IMAGES/BRE_B017.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B017/MASKS/BRE_B017.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+62,55,BRE_B018_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B018_L 9.0cm/IMAGES/BRE_B018_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B018_L 9.0cm/MASKS/BRE_B018_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+63,55,BRE_B018_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B018_R 12cm/IMAGES/BRE_B018_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B018_R 12cm/MASKS/BRE_B018_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+64,56,BRE_B020_R,BRE,Voorlopig/BRE_B020_R/IMAGES/BRE_B020_R.nii.gz,Voorlopig/BRE_B020_R/MASKS/BRE_B020_R.nii.gz,B,OK,5.0,Hoort bij BRE_M130-L,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,"RMI <200, andere zijde maligne",0,0,0,0,Complete
+65,56,BRE_M130_L,BRE,missing/BRE_M130_L/IMAGES/BRE_M130_L.nii.gz,missing/BRE_M130_L/MASKS/BRE_M130_L.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+66,57,BRE_B021,BRE,missing_3/BRE_B021/IMAGES/BRE_B021.nii.gz,missing_3/BRE_B021/MASKS/BRE_B021.nii.gz,B,,,,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+67,58,BRE_B022,BRE,Voorlopig/BRE_B022/IMAGES/BRE_B022.nii.gz,Voorlopig/BRE_B022/MASKS/BRE_B022.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,Geen RMI,0,0,0,0,Complete
+68,59,BRE_B023,BRE,missing_2/BRE_B023/IMAGES/BRE_B023.nii.gz,missing_2/BRE_B023/MASKS/BRE_B023.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+69,60,BRE_B024,BRE,,,B,,,EUG. Exclusie vanwege tubaire origine,Yes,complete,0,EB,Ja,,,Ja,,,,0,0,0,0,Missing
+70,61,BRE_B025_L,BRE,missing_2/BRE_B025_L/IMAGES/BRE_B025_L.nii.gz,missing_2/BRE_B025_L/MASKS/BRE_B025_L.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+71,61,BRE_B025_R,BRE,missing_2/BRE_B025_R/IMAGES/BRE_B025_R.nii.gz,missing_2/BRE_B025_R/MASKS/BRE_B025_R.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+72,62,BRE_B026,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B026/IMAGES/BRE_B026.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B026/MASKS/BRE_B026.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI >200,1,1,0,0,Complete
+73,63,BRE_B027,BRE,missing_2/BRE_B027/IMAGES/BRE_B027.nii.gz,missing_2/BRE_B027/MASKS/BRE_B027.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+74,64,BRE_B029,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B029/IMAGES/BRE_B029.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B029/MASKS/BRE_B029.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,1,0,0,Complete
+75,65,BRE_B030,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B030/IMAGES/BRE_B030.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B030/MASKS/BRE_B030.nii.gz,B,Border is fairly inconsistent,2.0,,yes,complete,1,Nee,Ja,,,,1.0,1.0,RMI >200,1,0,0,0,Complete
+76,66,BRE_B031,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B031/IMAGES/BRE_B031.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B031/MASKS/BRE_B031.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+77,67,BRE_B032_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B032_L 5.5cm/IMAGES/BRE_B032_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B032_L 5.5cm/MASKS/BRE_B032_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+78,67,BRE_B032_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B032_L 5.5cm/BRE_B032_R 4.5cm/IMAGES/BRE_B032_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B032_L 5.5cm/BRE_B032_R 4.5cm/MASKS/BRE_B032_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+79,68,BRE_B033,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B033/IMAGES/BRE_B033.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B033/MASKS/BRE_B033.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+80,69,BRE_B034,BRE,,,B,,,Geen CT beelden,,,0,,,,,,,,,0,0,0,0,Missing
+81,70,BRE_B035,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B035/IMAGES/BRE_B035.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B035/MASKS/BRE_B035.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+82,71,BRE_B036,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B036/IMAGES/BRE_B036.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B036/MASKS/BRE_B036.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+83,72,BRE_B037,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B037/IMAGES/BRE_B037.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B037/MASKS/BRE_B037.nii.gz,B,OK,5.0,"Geen histologie van adnexen, enkel van tubae.",,geen ovariele pathologie,0,,,,,,,,,0,0,0,0,Complete
+84,73,BRE_B038,BRE,missing_2/BRE_B038/IMAGES/BRE_B038.nii.gz,missing_2/BRE_B038/MASKS/BRE_B038.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+85,74,BRE_B039,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B039/IMAGES/BRE_B039.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B039/MASKS/BRE_B039.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,Geen RMI,1,0,0,0,Complete
+86,75,BRE_B042,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B042/IMAGES/BRE_B042.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B042/MASKS/BRE_B042.nii.gz,B,"Hip implant, but quality of annotation seems OK",5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+87,76,BRE_B044,BRE,missing_2/BRE_B044/IMAGES/BRE_B044.nii.gz,missing_2/BRE_B044/MASKS/BRE_B044.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+88,77,BRE_B045,BRE,missing_2/BRE_B045/IMAGES/BRE_B045.nii.gz,missing_2/BRE_B045/MASKS/BRE_B045.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+89,78,BRE_B046,BRE,Voorlopig/BRE_B046/IMAGES/BRE_B046.nii.gz,Voorlopig/BRE_B046/MASKS/BRE_B046.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+90,79,BRE_B047_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B047_L 3.6cm/IMAGES/BRE_B047_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B047_L 3.6cm/MASKS/BRE_B047_L.nii.gz,B,"Hip implant, hard to judge correctness of shape of annotation",4.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+91,79,BRE_B047_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B047_R 3.9cm/IMAGES/BRE_B047_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B047_R 3.9cm/MASKS/BRE_B047_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+92,80,BRE_B048,BRE,missing_2/BRE_B048/IMAGES/BRE_B048.nii.gz,missing_2/BRE_B048/MASKS/BRE_B048.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+93,81,BRE_B050_L,BRE,missing_2/BRE_B050_L/IMAGES/BRE_B050_L.nii.gz,missing_2/BRE_B050_L/MASKS/BRE_B050_L.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+94,81,BRE_B050_R,BRE,missing_2/BRE_B050_R/IMAGES/BRE_B050_R.nii.gz,missing_2/BRE_B050_R/MASKS/BRE_B050_R.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+95,82,BRE_B051,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B051/IMAGES/BRE_B051.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B051/MASKS/BRE_B051.nii.gz,B,OK,5.0,,yes,complete,1,EB,Ja,NVT,,,,,,0,0,0,1,Complete
+96,83,BRE_B053,BRE,missing_2/BRE_B053/IMAGES/BRE_B053.nii.gz,missing_2/BRE_B053/MASKS/BRE_B053.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+97,84,BRE_B054_L,BRE,missing_2/BRE_B054_L/IMAGES/BRE_B054_L.nii.gz,missing_2/BRE_B054_L/MASKS/BRE_B054_L.nii.gz,B,Inconsistent,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+98,84,BRE_B054_R,BRE,Voorlopig/BRE_B054_R - 4.0cm/IMAGES/BRE_B054_R.nii.gz,Voorlopig/BRE_B054_R - 4.0cm/MASKS/BRE_B054_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+99,85,BRE_B056,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B056/IMAGES/BRE_B056.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B056/MASKS/BRE_B056.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI <200, IOTA",1,1,0,0,Complete
+100,86,BRE_B057,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B057/IMAGES/BRE_B057.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B057/MASKS/BRE_B057.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+101,87,BRE_B058,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B058/IMAGES/BRE_B058.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B058/MASKS/BRE_B058.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+102,88,BRE_B059,BRE,Voorlopig/BRE_B059/IMAGES/BRE_B059.nii.gz,Voorlopig/BRE_B059/MASKS/BRE_B059.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+103,89,BRE_B060,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B060/IMAGES/BRE_B060.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B060/MASKS/BRE_B060.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+104,90,BRE_B062,BRE,missing_2/BRE_B062/IMAGES/BRE_B062.nii.gz,missing_2/BRE_B062/MASKS/BRE_B062.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+105,91,BRE_B063,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B063/IMAGES/BRE_B063.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B063/MASKS/BRE_B063.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,1,0,0,Complete
+106,92,BRE_B065_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B065_L 14cm/IMAGES/BRE_B065_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B065_L 14cm/MASKS/BRE_B065_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+107,92,BRE_B065_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B065_R 8cm/IMAGES/BRE_B065_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B065_R 8cm/MASKS/BRE_B065_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+108,93,BRE_B066,BRE,missing_2/BRE_B066/IMAGES/BRE_B066.nii.gz,missing_2/BRE_B066/MASKS/BRE_B066.nii.gz,B,"Small artifacts at border, for example slices 21-23 but also elsewhere",3.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+109,94,BRE_B069,BRE,missing_2/BRE_B069/IMAGES/BRE_B069.nii.gz,missing_2/BRE_B069/MASKS/BRE_B069.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+110,95,BRE_B070_L,BRE,missing/BRE_B070_L/IMAGES/BRE_B070_L.nii.gz,missing/BRE_B070_L/MASKS/BRE_B070_L.nii.gz,B,OK,5.0,"geen PA bekend, cyste reeds geopend bij ontvangst",,,0,Nee,Ja,NVT,,,,,,0,0,0,0,Complete
+111,95,BRE_B070_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B070_R 12cm/IMAGES/BRE_B070_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B070_R 12cm/MASKS/BRE_B070_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+112,96,BRE_B071,BRE,missing_2/BRE_B071/IMAGES/BRE_B071.nii.gz,missing_2/BRE_B071/MASKS/BRE_B071.nii.gz,B,,,,Yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+113,97,BRE_B072,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B072/IMAGES/BRE_B072.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B072/MASKS/BRE_B072.nii.gz,B,"Implant, but mask border is inconsistent. ",3.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,0.0,0.0,RMI <200,0,0,0,0,Complete
+114,98,BRE_B073,BRE,missing_2/BRE_B073/IMAGES/BRE_B073.nii.gz,missing_2/BRE_B073/MASKS/BRE_B073.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+115,99,BRE_B074,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B074/IMAGES/BRE_B074.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B074/MASKS/BRE_B074.nii.gz,B,Major artifacting in slices under slice 75.,1.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,1.0,0.0,RMI <200,1,1,0,0,Complete
+116,100,BRE_B075,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B075/IMAGES/BRE_B075.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B075/MASKS/BRE_B075.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+117,101,BRE_B076,BRE,,,B,,,Dubbel met BRE_B075 en B190,,,0,,,,,,,,,0,0,0,0,Missing
+118,102,BRE_B077,BRE,missing_2/BRE_B077/IMAGES/BRE_B077.nii.gz,missing_2/BRE_B077/MASKS/BRE_B077.nii.gz,B,,,,Yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+119,103,BRE_B078-L,BRE,missing_2/BRE_B078_L/IMAGES/BRE_B078_L.nii.gz,missing_2/BRE_B078_L/MASKS/BRE_B078_L.nii.gz,B,,,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+120,103,BRE_B078-R,BRE,missing_2/BRE_B078_R/IMAGES/BRE_B078_R.nii.gz,missing_2/BRE_B078_R/MASKS/BRE_B078_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+121,104,BRE_B079,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B079/IMAGES/BRE_B079.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B079/MASKS/BRE_B079.nii.gz,B,Artifacts in top right on multiple slices,2.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,1.0,1.0,RMI >200,1,0,0,0,Complete
+122,105,BRE_B080,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B080/IMAGES/BRE_B080.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B080/MASKS/BRE_B080.nii.gz,B,Major artifacts! ,1.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,0.0,0.0,RMI >200,0,0,0,0,Complete
+123,106,BRE_B082,BRE,,,B,,,Benigne weefsel verkregen CT-geleid, CA125," benigne ogend,  gedacht aan uterus myomatosus ",0,,,,,,0.0,,,0,0,0,0,Missing
+124,107,BRE_B083_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B083_L 8cm/IMAGES/BRE_B083_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B083_L 8cm/MASKS/BRE_B083_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+125,107,BRE_B083_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B083_R 5.2cm/IMAGES/BRE_B083_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B083_R 5.2cm/MASKS/BRE_B083_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+126,108,BRE_B084,BRE,missing_2/BRE_B084/IMAGES/BRE_B084.nii.gz,missing_2/BRE_B084/MASKS/BRE_B084.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+127,109,BRE_B085,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B085/IMAGES/BRE_B085.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B085/MASKS/BRE_B085.nii.gz,B,"horizontal line in annotaion, for example slice 68 bottom left. This line also pokes through to the right side of tumor on some slices.",3.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,1.0,0.0,RMI <200,1,0,0,0,Complete
+128,110,BRE_B086,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B086/IMAGES/BRE_B086.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B086/MASKS/BRE_B086.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+129,111,BRE_B087,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B087/IMAGES/BRE_B087.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B087/MASKS/BRE_B087.nii.gz,B,"Artifacting visible, on some slices part of the border misses a chunk. Mostly bottom left of annotation mask, but all slices should be checked. ",3.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,1.0,0.0,RMI <200,1,0,0,0,Complete
+130,112,BRE_B089,BRE,missing_2/BRE_B089/IMAGES/BRE_B089.nii.gz,missing_2/BRE_B089/MASKS/BRE_B089.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+131,113,BRE_B090,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B090/IMAGES/BRE_B090.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B090/MASKS/BRE_B090.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI <200, IOTA",1,1,0,0,Complete
+132,114,BRE_B091,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B091/IMAGES/BRE_B091.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B091/MASKS/BRE_B091.nii.gz,B,"Artifacting, for example slice 39 but also elsewhere",2.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,0.0,1.0,RMI >200,0,0,0,0,Complete
+133,115,BRE_B092_L,BRE,missing/BRE_B092_L 5.4cm/IMAGES/BRE_B092_L.nii.gz,missing/BRE_B092_L 5.4cm/MASKS/BRE_B092_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+134,115,BRE_B092_R,BRE,missing/BRE_B092_R 8.6cm/IMAGES/BRE_B092_R.nii.gz,missing/BRE_B092_R 8.6cm/MASKS/BRE_B092_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+135,116,BRE_B093,BRE,missing_2/BRE_B093/IMAGES/BRE_B093.nii.gz,missing_2/BRE_B093/MASKS/BRE_B093.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+136,117,BRE_B094,BRE,missing_2/BRE_B094/IMAGES/BRE_B094.nii.gz,missing_2/BRE_B094/MASKS/BRE_B094.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+137,118,BRE_B096,BRE,missing_2/BRE_B096/IMAGES/BRE_B096.nii.gz,missing_2/BRE_B096/MASKS/BRE_B096.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+138,119,BRE_B097_R,BRE,Voorlopig/BRE_B097_R/IMAGES/BRE_B097_R.nii,Voorlopig/BRE_B097_R/MASKS/BRE_B097_R.nii.gz,B,,,"voorheen BRE_B219_R (was een foutje), hoort bij BL016-L",yes,complete,1,Nee,Ja,,,,0.0,0.0,"RMI <200, andere zijde borderline",0,0,0,0,Complete
+139,119,BRE_BL016_L,BRE,Voorlopig/BRE_BL016_L/IMAGES/BL016_L.nii.gz,Voorlopig/BRE_BL016_L/MASKS/BL016_L.nii.gz,BL,,,hoort bij BRE_B097,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+140,120,BRE_B098,BRE,missing_2/BRE_B098/IMAGES/BRE_B098.nii.gz,missing_2/BRE_B098/MASKS/BRE_B098.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+141,121,BRE_B099,BRE,missing_2/BRE_B099/IMAGES/BRE_B099.nii.gz,missing_2/BRE_B099/MASKS/BRE_B099.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+142,122,BRE_B100,BRE,missing_2/BRE_B100/IMAGES/BRE_B100.nii.gz,missing_2/BRE_B100/MASKS/BRE_B100.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+143,123,BRE_B101_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B101_L 6.5cm/IMAGES/BRE_B101_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B101_L 6.5cm/MASKS/BRE_B101_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+144,123,BRE_B101_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B101_R 6.0cm/IMAGES/BRE_B101_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B101_R 6.0cm/MASKS/BRE_B101_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+145,124,BRE_B102_L,BRE,missing_2/BRE_B102_L/IMAGES/BRE_B102_L.nii.gz,missing_2/BRE_B102_L/MASKS/BRE_B102_L.nii.gz,B,,,,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+146,124,BRE_B102_R,BRE,missing_2/BRE_B102_R/IMAGES/BRE_B102_R.nii.gz,missing_2/BRE_B102_R/MASKS/BRE_B102_R.nii.gz,B,"Major artifacting, for example slice 32",1.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,0.0,0.0,RMI >200,0,0,0,0,Complete
+147,125,BRE_B103,BRE,missing_2/BRE_B103/IMAGES/BRE_B103.nii.gz,missing_2/BRE_B103/MASKS/BRE_B103.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+148,126,BRE_B105,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B105/IMAGES/BRE_B105.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B105/MASKS/BRE_B105.nii.gz,B,"Large tumor. Bottom of annotation mask shows hihg frequency artifacts, for example slice 78. Also there are loose red pixels on several slices without tumor!",2.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,0.0,0.0,RMI <200,0,0,0,0,Complete
+149,127,BRE_B106,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B106/IMAGES/BRE_B106.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B106/MASKS/BRE_B106.nii.gz,B,Small artifact slice 30 left side,4.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+150,128,BRE_B108,BRE,missing_2/BRE_B108/IMAGES/BRE_B108.nii.gz,missing_2/BRE_B108/MASKS/BRE_B108.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+151,129,BRE_B109,BRE,Voorlopig/BRE_B109/IMAGES/BRE_B109.nii.gz,Voorlopig/BRE_B109/MASKS/BRE_B109.nii.gz,B,"Artifacts from slice 56 to 62, but rest of slices should be checked",3.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,1.0,0.0,RMI <200,1,1,0,0,Complete
+152,130,BRE_B110,BRE,missing_2/BRE_B110/IMAGES/BRE_B110.nii.gz,missing_2/BRE_B110/MASKS/BRE_B110.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+153,131,BRE_B111,BRE,Voorlopig/BRE_B111/IMAGES/BRE_B111.nii.gz,Voorlopig/BRE_B111/MASKS/BRE_B111.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+154,132,BRE_B112,BRE,missing_2/BRE_B112/IMAGES/BRE_B112.nii.gz,missing_2/BRE_B112/MASKS/BRE_B112.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+155,133,BRE_B113,BRE,missing_2/BRE_B113/IMAGES/BRE_B113.nii.gz,missing_2/BRE_B113/MASKS/BRE_B113.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+156,134,BRE_B114,BRE,missing_2/BRE_B114/IMAGES/BRE_B114.nii.gz,missing_2/BRE_B114/MASKS/BRE_B114.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+157,135,BRE_B115_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B115_L 15cm/IMAGES/BRE_B115_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B115_L 15cm/MASKS/BRE_B115_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+158,135,BRE_B115_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B115_R 9cm/IMAGES/BRE_B115_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B115_R 9cm/MASKS/BRE_B115_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+159,136,BRE_B116,BRE,missing_2/BRE_B116/IMAGES/BRE_B116.nii.gz,missing_2/BRE_B116/MASKS/BRE_B116.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+160,137,BRE_B117,BRE,missing_2/BRE_B117/IMAGES/BRE_B117.nii.gz,missing_2/BRE_B117/MASKS/BRE_B117.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+161,138,BRE_B118,BRE,missing_2/BRE_B118/IMAGES/BRE_B118.nii.gz,missing_2/BRE_B118/MASKS/BRE_B118.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+162,139,BRE_B120,BRE,missing_2/BRE_B120/IMAGES/BRE_B120.nii.gz,missing_2/BRE_B120/MASKS/BRE_B120.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+163,140,BRE_B121,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B121/IMAGES/BRE_B121.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B121/MASKS/BRE_B121.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+164,141,BRE_B122,BRE,missing_2/BRE_B122/IMAGES/BRE_B122.nii.gz,missing_2/BRE_B122/MASKS/BRE_B122.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+165,142,BRE_B123,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B123/IMAGES/BRE_B123.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B123/MASKS/BRE_B123.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI >200,1,0,0,0,Complete
+166,143,BRE_B127,BRE,missing_2/BRE_B127/IMAGES/BRE_B127.nii.gz,missing_2/BRE_B127/MASKS/BRE_B127.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+167,144,BRE_B128,BRE,missing_2/BRE_B128/IMAGES/BRE_B128.nii.gz,missing_2/BRE_B128/MASKS/BRE_B128.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+168,145,BRE_B129,BRE,missing_2/BRE_B129/IMAGES/BRE_B129.nii.gz,missing_2/BRE_B129/MASKS/BRE_B129.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+169,146,BRE_B130,BRE,,,B,,,PA al bekend + uitgebreide ziekte,,,0,,,,,,,,,0,0,0,0,Missing
+170,147,BRE_B131,BRE,Voorlopig/BRE_B131/IMAGES/BRE_B131.nii.gz,Voorlopig/BRE_B131/MASKS/BRE_B131.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+171,148,BRE_B132,BRE,missing_2/BRE_B132/IMAGES/BRE_B132.nii.gz,missing_2/BRE_B132/MASKS/BRE_B132.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+172,149,BRE_B133,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B133/IMAGES/BRE_B133.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B133/MASKS/BRE_B133.nii.gz,B,"Major artifacting, for example slice 27. ",1.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,0.0,1.0,"RMI <200, IOTA",0,0,0,0,Complete
+173,150,BRE_B134,BRE,missing_2/BRE_B134/IMAGES/BRE_B134.nii.gz,missing_2/BRE_B134/MASKS/BRE_B134.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+174,151,BRE_B135,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B135/IMAGES/BRE_B135.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B135/MASKS/BRE_B135.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI >200,1,0,0,0,Complete
+175,152,BRE_B136,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B136/IMAGES/BRE_B136.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B136/MASKS/BRE_B136.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+176,153,BRE_B137,BRE,missing_2/BRE_B137/IMAGES/BRE_B137.nii.gz,missing_2/BRE_B137/MASKS/BRE_B137.nii.gz,B,,,,yes,complete,0,EB,Ja,,,,,,,0,0,0,0,Complete
+177,154,BRE_B138,BRE,,,B,,,"Te kleine cyste, voorlopig exclusie.",,,0,EB,Ja,,,Ja,,,,0,0,0,0,Missing
+178,155,BRE_B139,BRE,missing_2/BRE_B139/IMAGES/BRE_B139.nii.gz,missing_2/BRE_B139/MASKS/BRE_B139.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+179,156,BRE_B140,BRE,Voorlopig/BRE_B140/IMAGES/BRE_B140.nii.gz,Voorlopig/BRE_B140/MASKS/BRE_B140.nii.gz,B,Artifact on right side of annotation,3.0,,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+180,157,BRE_B142,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B142/IMAGES/BRE_B142.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B142/MASKS/BRE_B142.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI >200,1,1,0,0,Complete
+181,158,BRE_B143,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B143/IMAGES/BRE_B143.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B143/MASKS/BRE_B143.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+182,159,BRE_B144,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B144/IMAGES/BRE_B144.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B144/MASKS/BRE_B144.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+183,160,BRE_B145,BRE,missing_2/BRE_B145/IMAGES/BRE_B145.nii.gz,missing_2/BRE_B145/MASKS/BRE_B145.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+184,161,BRE_B147,BRE,missing_2/BRE_B147/IMAGES/BRE_B147.nii.gz,missing_2/BRE_B147/MASKS/BRE_B147.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+185,162,BRE_B148,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B148/IMAGES/BRE_B148.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B148/MASKS/BRE_B148.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+186,163,BRE_B150,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B150/IMAGES/BRE_B150.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B150/MASKS/BRE_B150.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+187,164,BRE_B151,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B151/IMAGES/BRE_B151.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B151/MASKS/BRE_B151.nii.gz,B,"Major artifacts across many slices, you can't miss them. ",1.0,,yes,complete,1,Nee,Ja,,,,1.0,0.0,RMI >200,1,1,0,0,Complete
+188,165,BRE_B155,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B155/IMAGES/BRE_B155.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B155/MASKS/BRE_B155.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI >200, IOTA",1,0,0,0,Complete
+189,166,BRE_B157,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B157/IMAGES/BRE_B155.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B157/MASKS/BRE_B157.nii.gz,B,Artifacts on slice 57-58 top left,3.0,,yes,complete,1,Nee,Ja,,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+190,167,BRE_B158,BRE,missing_2/BRE_B158/IMAGES/BRE_B158.nii.gz,missing_2/BRE_B158/MASKS/BRE_B158.nii.gz,B,,,"PA necrotisch, geen maligniteit.",yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+191,168,BRE_B159_L,BRE,missing_2/BRE_B159_L/IMAGES/BRE_B159_L.nii.gz,missing_2/BRE_B159_L/MASKS/BRE_B159_L.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+192,168,BRE_B159_R,BRE,missing_2/BRE_B159_R/IMAGES/BRE_B159_R.nii.gz,missing_2/BRE_B159_R/MASKS/BRE_B159_R.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+193,169,BRE_B160,BRE,,,B,,,Geen ovarium tumor blijkt leiomyoom vd uterus. + slechte kwaliteit scan. Exclusie,,,0,Nee,Nee,,,1,,,,0,0,0,0,Missing
+194,170,BRE_B161,BRE,missing_2/BRE_B161/IMAGES/BRE_B161.nii.gz,missing_2/BRE_B161/MASKS/BRE_B161.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+195,171,BRE_B162,BRE,missing_2/BRE_B162/IMAGES/BRE_B162.nii.gz,missing_2/BRE_B162/MASKS/BRE_B162.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+196,172,BRE_B164,BRE,missing_2/BRE_B164/IMAGES/BRE_B164.nii.gz,missing_2/BRE_B164/MASKS/BRE_B164.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+197,173,BRE_B165,BRE,missing_2/BRE_B165/IMAGES/BRE_B165.nii.gz,missing_2/BRE_B165/MASKS/BRE_B165.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+198,174,BRE_B166,BRE,,,B,,,Geen ovariumpathologie: ontstekingsproces tuba. Enkel linker adnex verwijderd. Exclusie,Yes,,0,Nee,Nee,,,Ja,,,,0,0,0,0,Missing
+199,175,BRE_B167_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B167_L 5.4cm/IMAGES/BRE_B167_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B167_L 5.4cm/MASKS/BRE_B167_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+200,175,BRE_B167_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B167_R 11.4cm/IMAGES/BRE_B167_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B167_R 11.4cm/MASKS/BRE_B167_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+201,176,BRE_B168,BRE,,,B,,,Geen CT beelden,,,0,,,,,,,,,0,0,0,0,Missing
+202,177,BRE_B169,BRE,missing_2/BRE_B169/IMAGES/BRE_B169.nii.gz,missing_2/BRE_B169/MASKS/BRE_B169.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+203,178,BRE_B170,BRE,missing_2/BRE_B170/IMAGES/BRE_B170.nii.gz,missing_2/BRE_B170/MASKS/BRE_B170.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+204,179,BRE_B171,BRE,missing_2/BRE_B171/IMAGES/BRE_B171.nii.gz,missing_2/BRE_B171/MASKS/BRE_B171.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+205,180,BRE_B172,BRE,missing_2/BRE_B172/IMAGES/BRE_B172.nii.gz,missing_2/BRE_B172/MASKS/BRE_B172.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+206,181,BRE_B173,BRE,missing_2/BRE_B173/IMAGES/BRE_B173.nii.gz,missing_2/BRE_B173/MASKS/BRE_B173.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+207,182,BRE_B175,BRE,missing_2/BRE_B175/IMAGES/BRE_B175.nii.gz,missing_2/BRE_B175/MASKS/BRE_B175.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+208,183,BRE_B176,BRE,missing_2/BRE_B176/IMAGES/BRE_B176.nii.gz,missing_2/BRE_B176/MASKS/BRE_B176.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+209,184,BRE_B177_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B177_L 4.7cm/IMAGES/BRE_B177_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B177_L 4.7cm/MASKS/BRE_B177_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+210,184,BRE_B177_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B177_R 5.5cm/IMAGES/BRE_B177_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B177_R 5.5cm/MASKS/BRE_B177_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+211,185,BRE_B178,BRE,missing_2/BRE_B178/IMAGES/BRE_B178.nii.gz,missing_2/BRE_B178/MASKS/BRE_B178.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+212,186,BRE_B179,BRE,missing_2/BRE_B179/IMAGES/BRE_B179.nii.gz,missing_2/BRE_B179/MASKS/BRE_B179.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+213,187,BRE_B180,BRE,missing_2/BRE_B180/IMAGES/BRE_B180.nii.gz,missing_2/BRE_B180/MASKS/BRE_B180.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+214,188,BRE_B181_L,BRE,missing_2/BRE_B181_L/IMAGES/BRE_B181_L.nii.gz,missing_2/BRE_B181_L/MASKS/BRE_B181_L.nii.gz,B,OK,5.0,5cm,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+215,188,BRE_B181_R,BRE,missing_2/BRE_B181_R/IMAGES/BRE_B181_R.nii.gz,missing_2/BRE_B181_R/MASKS/BRE_B181_R.nii.gz,B,OK,5.0,7cm,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+216,189,BRE_B183,BRE,missing_2/BRE_B183/IMAGES/BRE_B183.nii.gz,missing_2/BRE_B183/MASKS/BRE_B183.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+217,190,BRE_B184_L,BRE,missing_2/BRE_B184_L/IMAGES/BRE_B184_L.nii.gz,missing_2/BRE_B184_L/MASKS/BRE_B184_L.nii.gz,B,,,Hoort bij BRE_M128_R,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+218,190,BRE_M128_R,BRE,missing_2/BRE_M128_R/IMAGES/BRE_M128_R.nii.gz,missing_2/BRE_M128_R/MASKS/BRE_M128_R.nii.gz,M,"Noisy border, left side. ",3.0,Hoort bij B184_L,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+219,191,BRE_B185,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B185/IMAGES/BRE_B185.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B185/MASKS/BRE_B185.nii.gz,B,Artifacts on top side of annotation,2.0,Aard van cyste niet vast te stellen door patholoog. Naar patiënt gecommuniceerd als endometrioom,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+220,192,BRE_B186,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B186/IMAGES/BRE_B186.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B186/MASKS/BRE_B186.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+221,193,BRE_B188,BRE,,,B,dubbel met BRE_B075 en B190,,,,,0,,,,,,,,,0,0,0,0,Missing
+222,194,BRE_B189,BRE,,,B,dubbel met BRE_B134,,,,,0,,,,,,,,,0,0,0,0,Missing
+223,195,BRE_B190,BRE,,,B,geen CT-beelden,,,,,0,,,,,,,,,0,0,0,0,Missing
+224,196,BRE_B192,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B192/IMAGES/BRE_B192.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B192/MASKS/BRE_B192.nii.gz,B,"quite some artifacting, for example slice 75/76",2.0,,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+225,197,BRE_B193,BRE,Voorlopig/BRE_B193/IMAGES/BRE_B193.nii.gz,Voorlopig/BRE_B193/MASKS/BRE_B193.nii.gz,B,,,voorheen BRE_M004,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+226,198,BRE_B194,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_B194/IMAGES/BRE_B194.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_B194/MASKS/BRE_B194.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI >200,1,1,0,0,Complete
+227,199,BRE_B195_L,BRE,missing_2/BRE_B195_L 32cm/IMAGES/BRE_B195_L.nii.gz,missing_2/BRE_B195_L 32cm/MASKS/BRE_B195_L.nii.gz,B,border does show high frequency artifacting where the border should be smooth. On multiple slices ,2.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,Geen RMI,0,0,0,0,Complete
+228,199,BRE_B195_R,BRE,missing_2/BRE_B195_R 35cm/IMAGES/BRE_B195_R.nii.gz,missing_2/BRE_B195_R 35cm/MASKS/BRE_B195_R.nii.gz,B,artifacts from slice 106 to 112. Few lines here and there and some inconsistency.,2.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,Geen RMI,0,0,0,0,Complete
+229,200,BRE_B197_L,BRE,missing_2/BRE_B197_L 4.5cm/IMAGES/BRE_B197_L.nii.gz,missing_2/BRE_B197_L 4.5cm/MASKS/BRE_B197_L.nii.gz,B,"Single line annotated on slice 49, looks noisy",3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,Geen RMI,0,0,0,0,Complete
+230,200,BRE_B197_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B197-R 16cm/IMAGES/BRE_B197-R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B197-R 16cm/MASKS/BRE_B197-R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,Geen RMI,0,0,0,0,Complete
+231,201,BRE_B198,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B198/IMAGES/BRE_B198.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B198/MASKS/BRE_B198.nii.gz,B,"Noise on right side, bottom of mask. Check all slices.",3.0,voorheen M021,yes,complete,1,Nee,Ja,,,,1.0,1.0,RMI >200,1,0,0,0,Complete
+232,202,BRE_B199,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B199/IMAGES/BRE_B199.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B199/MASKS/BRE_B199.nii.gz,B,Artifacts on slice 43 on top of tumor. ,3.0,voorheen BRE_M026,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+233,203,BRE_B200,BRE,,,B,,,"voorheen BRE_M121; Exclusie, te kleine cyste.",,,0,EB,Nee,,,Ja,,,,0,0,0,0,Missing
+234,204,BRE_B201,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B201/IMAGES/BRE_B201.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B201/MASKS/BRE_B201.nii.gz,B,"Artifacts on right side , for example slice 74-90. But also elsewhere. ",2.0,voorheen BRE_M111,yes,complete,1,Nee,Ja,,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+235,205,BRE_B202,BRE,,,B,,,"voorheen BRE_M100,  opent niet in ITK-SNAP ",, Exclusie,0,Nee,Nee,,,,,,,0,0,0,0,Missing
+236,206,BRE_B203,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B203/IMAGES/BRE_B203.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B203/MASKS/BRE_B203.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI <200, IOTA",0,0,0,0,Complete
+237,207,BRE_B204,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B204/IMAGES/BRE_B204.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B204/MASKS/BRE_B204.nii.gz,B,Slices 39-41 show a hole in top of annotation. Slice 50 contains loose pixels,3.0,voorheen BRE_M088,yes,complete,1,Nee,Ja,,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+238,208,BRE_B205,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B205/IMAGES/BRE_B205.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B205/MASKS/BRE_B205.nii.gz,B,"Artifacts visible, vertical line on early slices",3.0,,yes,complete,1,Nee,Ja,,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+239,209,BRE_B206,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B206/IMAGES/BRE_B206.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B206/MASKS/BRE_B206.nii.gz,B,High frequency noise in border across multiple slices ,2.0,,yes,complete,1,Nee,Ja,,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+240,210,BRE_B207,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B207/IMAGES/BRE_B207.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B207/MASKS/BRE_B207.nii.gz,B,Artifacts in several slices. High frequency noise in border and some vertical lines in early slices. ,1.0,,yes,complete,1,Nee,Ja,,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+241,211,BRE_B208_L,BRE,missing_2/BRE_B208-L 9cm/IMAGES/BRE_B208_L.nii.gz,missing_2/BRE_B208-L 9cm/MASKS/BRE_B208_L.nii.gz,B,High frequency noise on slice 61-64 bottom side,3.0,voorheen BRE_M061,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+242,211,BRE_B208_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_B208-R 4cm/IMAGES/BRE_B208_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_B208-R 4cm/MASKS/BRE_B208_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+243,212,BRE_B209,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B209/IMAGES/BRE_B209.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B209/MASKS/BRE_B209.nii.gz,B,"Major artifacting, for example slice 91",1.0,voorheen BRE_M060,yes,complete,1,Nee,Ja,,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+244,213,BRE_B210,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B210/IMAGES/BRE_B2010.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B210/MASKS/BRE_B210.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+245,214,BRE_B211,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B211/IMAGES/BRE_B211.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B211/MASKS/BRE_B211.nii.gz,B,Small noises in border across several slices,3.0,voorheen BRE_M057,yes,complete,1,Nee,Ja,,,,0.0,1.0,"RMI <200, IOTA",0,0,0,0,Complete
+246,215,BRE_B212,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B212/IMAGES/BRE_B212.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B212/MASKS/BRE_B212.nii.gz,B,Artifacting at bottom border of annotation mask,1.0,voorheen BRE_M056,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+247,216,BRE_B213,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B213/IMAGES/BRE_B213.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B213/MASKS/BRE_B213.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+248,217,BRE_B214,BRE,missing_2/BRE_B214/IMAGES/BRE_B214.nii.gz,missing_2/BRE_B214/MASKS/BRE_B214.nii.gz,B,,,"voorheen BRE_M051, rechter tuba STIL en STIC",yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+249,218,BRE_B215,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B215/IMAGES/BRE_B215.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B215/MASKS/BRE_B215.nii.gz,B," artifacting at bottom of tumor, for example slice 80-90",3.0,voorheen BRE_M049,yes,complete,1,Nee,Ja,,,,1.0,1.0,RMI >200,1,0,0,0,Complete
+250,219,BRE_B216,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B216/IMAGES/BRE_B216.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B216/MASKS/BRE_B216.nii.gz,B,See slice 40 or 51 for small artifacts at the borders,2.0,voorheen BRE_M042,yes,complete,1,Nee,Ja,,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+251,220,BRE_B217,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_B217/IMAGES/BRE_B217.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_B217/MASKS/BRE_B217.nii.gz,B,Artifacting on slice 67 and neighbours ,3.0,voorheen BRE_M033,yes,complete,1,Nee,Ja,,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+252,221,BRE_B218,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_B218/IMAGES/BRE_B218.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_B218/MASKS/BRE_B218.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI <200, IOTA",1,0,0,0,Complete
+253,222,BRE_B219_L,BRE,,,B,,,"Amper klinische gegevens. Voorheen BRE_M113. Blijkt metastase van ovariumcarcinoom rechts die vast zit aan sigmoïd, ter grootte van 11cm. ",,,0,Nee,Ja,,,,,,,0,0,0,0,Missing
+254,223,BRE_B220_L,BRE,missing/BRE_B220_L/IMAGES/BRE_B220_L.nii.gz,missing/BRE_B220_L/MASKS/BRE_B220_L.nii.gz,B,"Hip implant, mask good",5.0,hoort bij BRE_BL008-R,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,"RMI >200, andere zijde borderline",0,0,0,0,Complete
+255,223,BRE_BL008_R,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL008_R/IMAGES/BRE_BL008_R.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL008_R/MASKS/BRE_BL008_R.nii.gz,BL,,,"voorheen BRE_M017_R, hoort bij  BRE_B220-L",yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+256,224,BRE_B221,BRE,missing/BRE_B221/IMAGES/BRE_B221.nii.gz,missing/BRE_B221/MASKS/BRE_B221.nii.gz,B,"Major artifacts across multiple slices. The artifacts do approximate the correct shape, but there are many vertical lines! Not good",1.0,,yes,complete,1,Nee,Ja,,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+257,225,BRE_B222_L,BRE,missing_2/BRE_B222_L/IMAGES/BRE_B222_L.nii.gz,missing_2/BRE_B222_L/MASKS/BRE_B222_L.nii.gz,B,Vertical line on left side of slice 43 and 44,3.0,hoort bij M044-R,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,"RMI <200, andere zijde maligne",0,0,0,0,Complete
+258,225,BRE_M044_R,BRE,missing_2/BRE_M044_R/IMAGES/BRE_M044_R.nii.gz,missing_2/BRE_M044_R/MASKS/BRE_M044_R.nii.gz,M,"Artifact slice 39 bottom right, but check all slices! ",3.0,hoort bij B222-L,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,"RMI <200, andere zijde benigne",0,0,0,0,Complete
+259,226,BRE_B223_R,BRE,missing/BRE_B223_R/IMAGES/BRE_B223_R.nii.gz,missing/BRE_B223_R/MASKS/BRE_B223_R.nii.gz,B,,,hoort bij M120_L,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,"RMI <200, andere zijde maligne",0,0,0,0,Complete
+260,226,BRE_M120_L,BRE,missing/BRE_M120_L/IMAGES/BRE_M120_L.nii.gz,missing/BRE_M120_L/MASKS/BRE_M120_L.nii.gz,M,OK,5.0,hoort bij BRE_B223_R,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,"RMI <200, andere zijde benigne",0,0,0,0,Complete
+261,227,BRE_B224,BRE,missing_2/BRE_B224/IMAGES/BRE_B224.nii.gz,missing_2/BRE_B224/MASKS/BRE_B224.nii.gz,B,,,"veel ascites, CA125 1420. Fibrothecoom + syndr Meigs. Voorheen BRE_M010",yes,complete,1,Nee,Ja,,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+262,228,BRE_B225,BRE,missing_2/BRE_B225/IMAGES/BRE_B225.nii.gz,missing_2/BRE_B225/MASKS/BRE_B225.nii.gz,B,,,aparte beeldvorming. Voorheen BRE_M085,yes,complete,1,Nee,Ja,,,,1.0,0.0,RMI <200,1,1,0,0,Complete
+263,229,BRE_BL001,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL001/IMAGES/BRE_BL001.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL001/MASKS/BRE_BL001.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+264,230,BRE_BL002,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL002/IMAGES/BRE_BL002.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL002/MASKS/BRE_BL002.nii.gz,BL,,,17 jaar (<18 exclusie),yes,complete,0,BL,Ja,,,,,,,0,0,0,0,Missing
+265,231,BRE_BL003-L,BRE,missing_2/BRE_BL003-L/IMAGES/BRE_BL003-L.nii.gz,missing_2/BRE_BL003-L/MASKS/BRE_BL003-L.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+266,231,BRE_BL003-R,BRE,missing_2/BRE_BL003-R/IMAGES/BRE_BL003-R.nii.gz,missing_2/BRE_BL003-R/MASKS/BRE_BL003-R.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+267,232,BRE_BL004-L,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL004-L 5.0cm/IMAGES/BRE_BL004-L.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL004-L 5.0cm/MASKS/BRE_BL004-L.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+268,232,BRE_BL004-R,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL004-R 7.0cm/IMAGES/BRE_BL004-R.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL004-R 7.0cm/MASKS/BRE_BL004-R.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+269,233,BRE_BL005_L,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL005_L/IMAGES/BRE_BL005_L.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL005_L/MASKS/BRE_BL005_L.nii.gz,BL,,,hoort bij BL005-R,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+270,233,BRE_BL005_R,BRE,Voorlopig/BRE_BL005_R/IMAGES/BRE_BL005_R.nii.gz,Voorlopig/BRE_BL005_R/MASKS/BRE_BL005_R.nii.gz,BL,,,voorheen BRE_B196-R,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+271,234,BRE_BL007-L,CZEvanuitAmph,BREbkdCZE/BREbkdCZE_BORD/BRE_BL007-L 11.5cm/IMAGES/BRE_BL007_L.nii.gz,BREbkdCZE/BREbkdCZE_BORD/BRE_BL007-L 11.5cm/MASKS/BRE_BL007_L.nii.gz,BL,,,voorheen BRE_M018_L,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+272,234,BRE_BL007-R,CZEvanuitAmph,BREbkdCZE/BREbkdCZE_BORD/BRE_BL007-R 9.5cm/IMAGES/BRE_BL007_R.nii.gz,BREbkdCZE/BREbkdCZE_BORD/BRE_BL007-R 9.5cm/MASKS/BRE_BL007_R.nii.gz,BL,,,voorheen BRE_M018_R,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+273,235,BRE_BL009,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL009/IMAGES/BRE_BL009.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL009/MASKS/BRE_BL009.nii.gz,BL,,,voorheen BRE_B061,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+274,236,BRE_BL010,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL010/IMAGES/BRE_BL010.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL010/MASKS/BRE_BL010.nii.gz,BL,,,voorheen BRE_B064,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+275,237,BRE_BL011,BRE,Voorlopig/BRE_BL011/IMAGES/BL011.nii.gz,Voorlopig/BRE_BL011/MASKS/BL011.nii.gz,BL,,,voorheen BRE_B067,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+276,238,BRE_BL012,BRE,Voorlopig/BRE_BL012/IMAGES/BL012.nii.gz,Voorlopig/BRE_BL012/MASKS/BL012.nii.gz,BL,,,voorheen BRE_B068,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+277,239,BRE_BL013_L,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL013_L 9cm/IMAGES/BRE_BL013_L.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL013_L 9cm/MASKS/BRE_BL013_L.nii.gz,BL,,,voorheen BRE_B081,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+278,239,BRE_BL013_R,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL013_R 3.5cm/IMAGES/BRE_BL013_R.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL013_R 3.5cm/MASKS/BRE_BL013_R.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+279,240,BRE_BL014,BRE,Voorlopig/BRE_BL014/IMAGES/BL014.nii.gz,Voorlopig/BRE_BL014/MASKS/BL014.nii.gz,BL,,,voorheen BRE_B088,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+280,241,BRE_BL015,BRE,missing_2/BRE_BL015/IMAGES/BRE_BL015.nii.gz,missing_2/BRE_BL015/MASKS/BRE_BL015.nii.gz,BL,,,voorheen BRE_B095,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+281,242,BRE_BL017_L,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL017_L 9.0cm/IMAGES/BRE_BL017_L.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL017_L 9.0cm/MASKS/BRE_BL017_L.nii.gz,BL,,,voorheen BRE_B104,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+282,242,BRE_BL017_R,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL017_R 23cm/IMAGES/BRE_BL017_R.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL017_R 23cm/MASKS/BRE_BL017_R.nii.gz,BL,,,voorheen BRE_B104,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+283,243,BRE_BL018,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL018/IMAGES/BRE_BL018.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL018/MASKS/BRE_BL018.nii.gz,BL,,,voorheen BRE_B107,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+284,244,BRE_BL019,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL019/IMAGES/BRE_BL019.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL019/MASKS/BRE_BL019.nii.gz,BL,,,voorheen BRE_B119,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+285,245,BRE_BL020,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL020/IMAGES/BRE_BL020.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL020/MASKS/BRE_BL020.nii.gz,BL,,,"tumor valt deels buiten beeld ,voorheen BRE_B125",yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+286,246,BRE_BL021,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL021/IMAGES/BRE_BL021.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL021/MASKS/BRE_BL021.nii.gz,BL,,,voorheen BRE_B141,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+287,247,BRE_BL022,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL022/IMAGES/BRE_BL022.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL022/MASKS/BRE_BL022.nii.gz,BL,,,voorheen BRE_B146,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+288,248,BRE_BL023,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL023/IMAGES/BRE_BL023.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL023/MASKS/BRE_BL023.nii.gz,BL,,,voorheen BRE_M034,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+289,249,BRE_BL024,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL024/IMAGES/BRE_BL024.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL024/MASKS/BRE_BL024.nii.gz,BL,,,voorheen BRE_M040,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+290,250,BRE_BL025,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL025/IMAGES/BRE_BL025.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL025/MASKS/BRE_BL025.nii.gz,BL,,,voorheen BRE_M047,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+291,251,BRE_BL026,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL026/IMAGES/BRE_BL026.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL026/MASKS/BRE_BL026.nii.gz,BL,,,voorheen BRE_M086,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+292,252,BRE_BL027,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL027/IMAGES/BRE_BL027.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL027/MASKS/BRE_BL027.nii.gz,BL,,,voorheen BRE_M118,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+293,253,BRE_BL028,BRE,missing_2/BRE_BL028/IMAGES/BRE_BL028.nii.gz,missing_2/BRE_BL028/MASKS/BRE_BL028.nii.gz,BL,,,"voorheen BRE_M108, geen klinische gegevens",yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+294,254,BRE_BL029,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL029/IMAGES/BRE_BL029.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL029/MASKS/BRE_BL029.nii.gz,BL,,,voorheen BRE_M104,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+295,255,BRE_BL030,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL030/IMAGES/BRE_BL030.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL030/MASKS/BRE_BL030.nii.gz,BL,,,voorheen BRE_M101,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+296,256,BRE_BL031,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL031/IMAGES/BRE_BL031.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL031/MASKS/BRE_BL031.nii.gz,BL,,,voorheen BRE_M097,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+297,257,BRE_BL032_L,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL032-L 12cm/IMAGES/BRE_BL032_L.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL032-L 12cm/MASKS/BRE_BL032_L.nii.gz,BL,,,voorheen BRE_M096,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+298,257,BRE_BL032_R,BRE,BRE_2/BRE_II/BRE_BORD_II/BRE_BL032-R 18.5cm/IMAGES/BRE_BL032_R.nii.gz,BRE_2/BRE_II/BRE_BORD_II/BRE_BL032-R 18.5cm/MASKS/BRE_BL032_R.nii.gz,BL,,,voorheen BRE_M096,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+299,258,BRE_BL033,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL033/IMAGES/BRE_BL033.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL033/MASKS/BRE_BL033.nii.gz,BL,,,voorheen BRE_M084,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+300,259,BRE_BL034,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL034/IMAGES/BRE_BL034.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL034/MASKS/BRE_BL034.nii.gz,BL,,,voorheen BRE_M081,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+301,260,BRE_BL035,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL035/IMAGES/BRE_BL035.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL035/MASKS/BRE_BL035.nii.gz,BL,,,voorheen BRE_M080,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+302,261,BRE_BL036,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL036/IMAGES/BRE_BL036.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL036/MASKS/BRE_BL036.nii.gz,BL,,,"borderline + STIC, voorheen BRE_M079",yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+303,262,BRE_BL037,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL037/IMAGES/BRE_BL037.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL037/MASKS/BRE_BL037.nii.gz,BL,,,voorheen BRE_M064,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+304,263,BRE_B226,BRE,missing_3/BRE_B226/IMAGES/BRE_B226.nii.gz,missing_3/BRE_B226/MASKS/BRE_B226.nii.gz,B,,,voorheen BRE_M052 en BRE_BL038,yes,complete,1,Nee,Ja,,,,0.0,,,0,0,0,0,Complete
+305,264,BRE_BL039,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL039/IMAGES/BRE_BL039.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL039/MASKS/BRE_BL039.nii.gz,BL,,,voorheen BRE_M039,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+306,265,BRE_BL040,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL040/IMAGES/BRE_BL040.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL040/MASKS/BRE_BL040.nii.gz,BL,,,voorheen BRE_M037,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+307,266,BRE_BL041,BRE,missing_2/BRE_BL041/IMAGES/BRE_BL041.nii.gz,missing_2/BRE_BL041/MASKS/BRE_BL041.nii.gz,BL,,,voorheen BRE_B153,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+308,267,BRE_BL042,BRE,missing_3/BRE_BL042/IMAGES/BRE_BL042.nii.gz,missing_3/BRE_BL042/MASKS/BRE_BL042.nii.gz,BL,,,voorheen BRE_B156,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+309,268,BRE_BL043,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL043/IMAGES/BRE_BL043.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL043/MASKS/BRE_BL043.nii.gz,BL,,,voorheen BRE_B163,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+310,269,BRE_BL044,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL044/IMAGES/BRE_BL044.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL044/MASKS/BRE_BL044.nii.gz,BL,,,voorheen BRE_B174,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+311,270,BRE_BL045,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL045/IMAGES/BRE_BL045.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL045/MASKS/BRE_BL045.nii.gz,BL,,,voorheen BRE_B182,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+312,271,BRE_BL046,CZEvanuitAmph,BREbkdCZE/BREbkdCZE_BORD/BRE_BL046/IMAGES/BRE_BL046.nii.gz,BREbkdCZE/BREbkdCZE_BORD/BRE_BL046/MASKS/BRE_BL046.nii.gz,BL,,,"dubbel BRE_M090, voorheen BRE_BL063",yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+313,272,BRE_BL047,CZEvanuitAmph,BREbkdCZE/BREbkdCZE_BORD/BRE_BL047/IMAGES/BRE_BL047.nii.gz,BREbkdCZE/BREbkdCZE_BORD/BRE_BL047/MASKS/BRE_BL047.nii.gz,BL,,,voorheen BRE_M116,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+314,273,BRE_BL048,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL048/IMAGES/BRE_BL048.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL048/MASKS/BRE_BL048.nii.gz,BL,,,voorheen BRE_B012,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+315,274,BRE_BL049,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL049/IMAGES/BRE_BL049.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL049/MASKS/BRE_BL049.nii.gz,BL,,,voorheen BRE_B015,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+316,275,BRE_BL050,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL050/IMAGES/BRE_BL050.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL050/MASKS/BRE_BL050.nii.gz,BL,,,voorheen BRE_B019,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+317,276,BRE_BL051,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL051/IMAGES/BRE_BL051.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL051/MASKS/BRE_BL051.nii.gz,BL,,,voorheen BRE_B028,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+318,277,BRE_BL052,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL052/IMAGES/BRE_BL052.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL052/MASKS/BRE_BL052.nii.gz,BL,,,voorheen BRE_B040,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+319,278,BRE_BL053,BRE,BRE_2/BRE_I/BRE_BORD_I/BRE_BL053/IMAGES/BRE_BL053.nii.gz,BRE_2/BRE_I/BRE_BORD_I/BRE_BL053/MASKS/BRE_BL053.nii.gz,BL,,,voorheen BRE_B052,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+320,279,BRE_BL054,BRE,missing_2/BRE_BL054/IMAGES/BRE_BL054.nii.gz,missing_2/BRE_BL054/MASKS/BRE_BL054.nii.gz,BL,OK,5.0,voorheen BRE_M054,yes,complete,1,Nee,Ja,NVT,,,,,,0,0,0,0,Missing
+321,280,BRE_BL055,BRE,missing_3/BRE_BL055/IMAGES/BRE_BL055.nii.gz,missing_3/BRE_BL055/MASKS/BRE_BL055.nii.gz,BL,OK,5.0,voorheen BRE_M013,yes,complete,1,BL,Ja,NVT,,,,,,0,0,0,0,Missing
+322,281,BRE_BL056,BRE,BRE_1/BRE1_MB/BRE_BL056/IMAGES/BRE_BL056.nii.gz,BRE_1/BRE1_MB/BRE_BL056/MASKS/BRE_BL056.nii.gz,BL,,,"Borderline,  voorheen BRE_B041",Yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+323,282,BRE_M001,BRE,missing_2/BRE_M001/IMAGES/BRE_M001.nii.gz,missing_2/BRE_M001/MASKS/BRE_M001.nii.gz,M,,,"RMI 2300, fors ascites",yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+324,283,BRE_M002,BRE,missing_2/BRE_M002/IMAGES/BRE_M002.nii.gz,missing_2/BRE_M002/MASKS/BRE_M002.nii.gz,M,Major artifacting around slice 76,1.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+325,284,BRE_M003_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_M003-L 4cm/IMAGES/BRE_M003-L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_M003-L 4cm/MASKS/BRE_M003-L.nii.gz,M,OK,5.0,PA al bekend,yes,,0,,,NVT,,,,,,0,0,0,0,Complete
+326,284,BRE_M003_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_M003-R 3.5cm/IMAGES/BRE_M003-R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_M003-R 3.5cm/MASKS/BRE_M003-R.nii.gz,M,OK,5.0,PA al bekend,yes,,0,,,NVT,,,,,,0,0,0,0,Complete
+327,285,BRE_M005_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_M005-L 6.5cm/IMAGES/BRE-M005-L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_M005-L 6.5cm/MASKS/BRE-M005-L.nii.gz,M, artifact slice 64 bottom side,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+328,285,BRE_M005_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_M005-R 11cm/IMAGES/BRE_M005-R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_M005-R 11cm/MASKS/BRE_M005-R.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+329,286,BRE_M006,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M006/IMAGES/BRE_M006.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M006/MASKS/BRE_M006.nii.gz,M,"Check for high frequency noise at border, bottom left part of annotation mask across many slices (slice 90 for example) ",2.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+330,287,BRE_M007,BRE,missing_2/BRE_M007/IMAGES/BRE_M007.nii.gz,missing_2/BRE_M007/MASKS/BRE_M007.nii.gz,M,,,plaveiselcel crc in een dermoid,yes,complete,1,Nee,Ja,,,,0.0,0.0,"RMI >200, plaveiselcelcarcinoom uit dermoïd",0,0,0,0,Complete
+331,288,BRE_M008,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M008/IMAGES/BRE_M008.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M008/MASKS/BRE_M008.nii.gz,M,Smalll artifact in slice 48. ,4.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+332,289,BRE_M009,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M009/IMAGES/BRE_M009.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M009/MASKS/BRE_M009.nii.gz,M,"Major, major artifacing at all slices <100. Not usable",1.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,0.0,RMI >200,1,1,0,0,Complete
+333,290,BRE_M015_L,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M015 - L 6.5cm/IMAGES/BRE_M015.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M015 - L 6.5cm/MASKS/BRE_M015_L.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+334,290,BRE_M015_R,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M015 - R 7.7cm/IMAGES/BRE_M015_R.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M015 - R 7.7cm/MASKS/BRE_M015_R.nii.gz,M,"Good, but slice 25, 28 and some other slices too contain stray pixels that do not belong to the tumor. ",4.0,,yes ,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+335,291,BRE_M019,BRE,missing_2/BRE_M019/IMAGES/BRE_M019.nii.gz,missing_2/BRE_M019/MASKS/BRE_M019.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+336,292,BRE_M022,BRE,Voorlopig/BRE_M022/IMAGES/BRE_M022.nii.gz,Voorlopig/BRE_M022/MASKS/BRE_M022.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+337,293,BRE_M023,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M023/IMAGES/BRE_M023.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M023/MASKS/BRE_M023.nii.gz,M,"No artifacts, but part of the tumor is obstructed by the reflections of the hip implants. (Exclude this one because of this)",1.0,"voorlopig NIET, heupprothese wel aangepast",,,0,Nee,Ja,Ja,,,,,,0,0,0,0,Complete
+338,294,BRE_M024,BRE,,,M,,,"borderline tumor + pseudomyxoma peritonei,  subtiele omental cake op CT gezien. Exclusie",,,0,,?,,,Ja,,,,0,0,0,0,Missing
+339,295,BRE_M025,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M025/IMAGES/BRE_M025.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M025/MASKS/BRE_M025.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI >200, IOTA",1,0,0,0,Complete
+340,296,BRE_M027,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M027/IMAGES/BRE_M027.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M027/MASKS/BRE_M027.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+341,297,BRE_M028,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M028/IMAGES/BRE_M028.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M028/MASKS/BRE_M028.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+342,298,BRE_M030,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M030/IMAGES/BRE_M030.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M030/MASKS/BRE_M030.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+343,299,BRE_M032,BRE,Voorlopig/BRE_M032/IMAGES/BRE_M032.nii.gz,Voorlopig/BRE_M032/MASKS/BRE_M032.nii.gz,M,,,Kiemcel tumor,yes,complete,1,EM,Ja,,,,,1.0,RMI >200,0,0,0,1,Complete
+344,300,BRE_M035,BRE,,,M,,,geen CT,,,0,,,,,,,,,0,0,0,0,Missing
+345,301,BRE_M036,BRE,Voorlopig/BRE_M036/IMAGES/BRE_M036.nii.gz,Voorlopig/BRE_M036/MASKS/BRE_M036.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+346,302,BRE_M038,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M038/IMAGES/BRE_M038.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M038/MASKS/BRE_M038.nii.gz,M,"Artifacts at tumor border, small magnitude",3.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,RMI >200,1,0,0,0,Complete
+347,303,BRE_M041,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M041/IMAGES/BRE_M041.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M041/MASKS/BRE_M041.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,1,0,0,Complete
+348,304,BRE_M043_L,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_M043-L 11cm/IMAGES/BRE_M043_L.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_M043-L 11cm/MASKS/BRE_M043_L.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+349,304,BRE_M043_R,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_M043-R 12cm/IMAGES/BRE_M043_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_M043-R 12cm/MASKS/BRE_M043_R.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+350,305,BRE_M045,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M045/IMAGES/BRE_M045.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M045/MASKS/BRE_M045.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+351,306,BRE_M048,BRE,missing_2/BRE_M048/IMAGES/BRE_M048.nii.gz,missing_2/BRE_M048/MASKS/BRE_M048.nii.gz,M,,,Verdenking gemetastaseerde ziekte. CT info nog invoeren,yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+352,307,BRE_M050,BRE,Voorlopig/BRE_M050/IMAGES/BRE_M050.nii.gz,Voorlopig/BRE_M050/MASKS/BRE_M050.nii.gz,M,Artifacts from slice 96 to 100 (horizontal and vertical lines) ,2.0,"voorlopig NIET, te maligne",yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+353,308,BRE_M053,BRE,missing_2/BRE_M053/IMAGES/BRE_M053.nii.gz,missing_2/BRE_M053/MASKS/BRE_M053.nii.gz,M,,,Primair peritoneaal sereus carcinoom. Adnexen beiderzijds normaal.,,,0,EM,Ja,,,Ja,,,,0,0,0,0,Complete
+354,309,BRE_M059,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M059/IMAGES/BRE_M059.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M059/MASKS/BRE_M059.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,1,0,0,Complete
+355,310,BRE_M066,BRE,,,M,,,Geen CT beelden,,,0,,,,,,,,,0,0,0,0,Missing
+356,311,BRE_M068,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M068/IMAGES/BRE_M068.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M068/MASKS/BRE_M068.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+357,312,BRE_M069,BRE,missing_2/BRE_M069/IMAGES/BRE_M069.nii.gz,missing_2/BRE_M069/MASKS/BRE_M069.nii.gz,M,Major artifacting across multiple slices. All slices should be checked for correctness,1.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+358,313,BRE_M070,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M070/IMAGES/BRE_M070.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M070/MASKS/BRE_M070.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+359,314,BRE_M071,BRE,missing_2/BRE_M071/IMAGES/BRE_M071.nii.gz,missing_2/BRE_M071/MASKS/BRE_M071.nii.gz,M,"Artifact on slice 32, but also check other slices",3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+360,315,BRE_M072,BRE,missing_2/BRE_M072/IMAGES/BRE_M072.nii.gz,missing_2/BRE_M072/MASKS/BRE_M072.nii.gz,M,,,"hele slechte kwaliteit, alleen sagitale coupe, wel geannoteerd",yes,complete,1,Nee,Ja,,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+361,316,BRE_M073,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M073/IMAGES/BRE_M073.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M073/MASKS/BRE_M073.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+362,317,BRE_M074,BRE,missing_2/BRE_M074/IMAGES/BRE_M074.nii.gz,missing_2/BRE_M074/MASKS/BRE_M074.nii.gz,M, artifacts on slice 53 at the top left of tumor (high frequency noise),3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+363,318,BRE_M075,BRE,missing_2/BRE_M075/IMAGES/BRE_M075.nii.gz,missing_2/BRE_M075/MASKS/BRE_M075.nii.gz,M,Major artifacting across multiple slices.,1.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,"RMI >200, IOTA",1,0,0,0,Complete
+364,319,BRE_M076,BRE,,,M,,,alleen thorax CT ook in radiant niet te wijzigen,,,0,,,,,,,,,0,0,0,0,Missing
+365,320,BRE_M077,BRE,,,M,,,"STIC en STIL tuba rechts adnex rechts geen maligniteit, adnex links geen diagnose te stellen",,,0,Nee,Nee,,,Ja,,,,0,0,0,0,Missing
+366,321,BRE_M082,BRE,missing_2/BRE_M082/IMAGES/BRE_M082.nii.gz,missing_2/BRE_M082/MASKS/BRE_M082.nii.gz,M,Major artifacting across all slices. Really bad,1.0,"voorlopig NIET, te maligne",yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+367,322,BRE_M087,BRE,missing_2/BRE_M087/IMAGES/BRE_M087.nii.gz,missing_2/BRE_M087/MASKS/BRE_M087.nii.gz,M,Artifacting on multiple slices. Not usable,1.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+368,323,BRE_M092,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M092/IMAGES/BRE_M092.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M092/MASKS/BRE_M092.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+369,324,BRE_M093_L,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M093-L 5.5cm/IMAGES/BRE_M093_L.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M093-L 5.5cm/MASKS/BRE_M093_L.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+370,324,BRE_M093_R,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M093-R 7.4cm/IMAGES/BRE_M093B_R.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M093-R 7.4cm/MASKS/BRE_M093_R.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+371,325,BRE_M094,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M094/IMAGES/BRE_M094.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M094/MASKS/BRE_M094.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+372,326,BRE_M099,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M099/IMAGES/BRE_M099.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M099/MASKS/BRE_M099.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,1,0,0,Complete
+373,327,BRE_M102,BRE,,,,,,geen CT,,,0,,,,,,,,,0,0,0,0,Missing
+374,328,BRE_M103,BRE,missing_2/BRE_M103/IMAGES/BRE_M103.nii.gz,missing_2/BRE_M103/MASKS/BRE_M103.nii.gz,M,Loose pixels and high frequency noise in border. ,3.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+375,329,BRE_M105,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M105/IMAGES/BRE_M105.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M105/MASKS/BRE_M105.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+376,330,BRE_M106,BRE,BREbkdCZE/BREbkdCZE_MB/BRE_M106/IMAGES/BRE_M106.nii.gz,BREbkdCZE/BREbkdCZE_MB/BRE_M106/MASKS/BRE_M106.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI >200, IOTA",1,1,0,0,Complete
+377,331,BRE_M107,BRE,missing_2/BRE_M107/IMAGES/BRE_M107.nii.gz,missing_2/BRE_M107/MASKS/BRE_M107.nii.gz,M,:Seems like some part of the tumor is missing in the annotation if you compare slice 41 and 42 with 43/44. Border seems inconsistent. ,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,Geen RMI,0,0,0,0,Complete
+378,332,BRE_M109,BRE,missing_2/BRE_M109/IMAGES/BRE_M109.nii.gz,missing_2/BRE_M109/MASKS/BRE_M109.nii.gz,M,Artifacts on slice 42 and neighbours and slice 88. Check entire annotation mask to be sure...,2.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+379,333,BRE_M110,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M110/IMAGES/BRE_M110.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M110/MASKS/BRE_M110.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,0,0,0,Complete
+380,334,BRE_M112,BRE,,,M,,,dubel met BRE_M112,,,0,,,,,,,,,0,0,0,0,Missing
+381,335,BRE_M113,BRE,BRE_2/BRE_II/BRE_MB_II/BRE_M113-R/IMAGES/BRE_M113_R.nii.gz,BRE_2/BRE_II/BRE_MB_II/BRE_M113-R/MASKS/BRE_M113_R.nii.gz,M,OK,5.0,"tweede laesie is metastase van ovariumcarcinoom rechts, ter grootte van 11cm; weinig klinische gegevens",yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,1,0,0,Complete
+382,336,BRE_M114,BRE,,,,,,geen CT,,,0,,,,,,,,,0,0,0,0,Missing
+383,337,BRE_M115,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M115/IMAGES/BRE_M115.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M115/MASKS/BRE_M115.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,Geen RMI,1,0,0,0,Complete
+384,338,BRE_M119,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M119/IMAGES/BRE_M119.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M119/MASKS/BRE_M119.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+385,339,BRE_M122_L,BRE,missing_2/BRE_M122_L/IMAGES/BRE_M122_L.nii.gz,missing_2/BRE_M122_L/MASKS/BRE_M122_L.nii.gz,M,OK,5.0,6.7cm,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+386,339,BRE_M122_R,BRE,missing_2/BRE_M122_R/IMAGES/BRE_M122_R.nii.gz,missing_2/BRE_M122_R/MASKS/BRE_M122_R.nii.gz,M,OK,5.0,9cm,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+387,340,BRE_M125,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M125/IMAGES/BRE_M125.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M125/MASKS/BRE_M125.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,0,0,0,Complete
+388,341,BRE_M126,BRE,,,M,,,"voorheen BRE_B152,  verkeerde scan datum! Misschien nog achterhalen",,,0,,,,,,,,,0,0,0,0,Missing
+389,342,BRE_M127,BRE,missing_2/BRE_M127/IMAGES/BRE_M127.nii.gz,missing_2/BRE_M127/MASKS/BRE_M127.nii.gz,M,,,"voorheen BRE_B154,  gemetastaseerd niercel crc waarbij afwijkend adnex",yes,complete,1,Nee,Ja,,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+390,343,BRE_M129,BRE,missing_2/BRE_M129/IMAGES/BRE_M129.nii.gz,missing_2/BRE_M129/MASKS/BRE_M129.nii.gz,M,Inconsitent border (but tumor is inconsistent too). Small artifacting visible on multiple slices halfway through tumor. ,3.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+391,344,BRE_M131,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M131/IMAGES/BRE_M131.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M131/MASKS/BRE_M131.nii.gz,M,OK,5.0,voorheen BRE_B124,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+392,345,BRE_M132,BRE,BRE_2/BRE_I/BRE_MB_I/BRE_M132/IMAGES/BRE_M132.nii.gz,BRE_2/BRE_I/BRE_MB_I/BRE_M132/MASKS/BRE_M132.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200,1,1,0,0,Complete
+393,346,CZE_B01,CZE,missing_2/CZE_B01/IMAGES/CZE_B01.nii.gz,missing_2/CZE_B01/MASKS/CZE_B01.nii.gz,B,Major artifacting in slice 92 and higher. Also on slice 36 there are clearly some vertical and horizontal lines in the annotation that should not be there.,1.0,,yes,complete,1,Nee,Ja,Ja,Ingrid,,0.0,0.0,RMI <200,0,0,0,0,Complete
+394,347,CZE_B02,CZE,,,B,,,"Incorrect slice thickness. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+395,348,CZE_B03,CZE,merged avl-cze/CZE_B03/IMAGES/CZE_B03.nii.gz,merged avl-cze/CZE_B03/MASKS/CZE_B03.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+396,349,CZE_B04,CZE,CZE_groen_frankenstein/B-M/CZE_B04/IMAGES/CZE_B04.nii.gz,CZE_groen_frankenstein/B-M/CZE_B04/MASKS/CZE_B04.nii.gz,B,OK,5.0,"dermoid, dus er voorlopig uit",yes,complete,1,D,Ja,NVT,,,,,,0,0,0,1,Complete
+397,350,CZE_B05,CZE,missing_3/CZE_B05/IMAGES/CZE_B05.nii.gz,missing_3/CZE_B05/MASKS/CZE_B05.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+398,351,CZE_B06,CZE,,,B,,,"Incorrect slice thickness. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+399,352,CZE_B07,CZE,CZE_groen_frankenstein/B-M/CZE_B07/IMAGES/CZE_B07.nii.gz,CZE_groen_frankenstein/B-M/CZE_B07/MASKS/CZE_B07.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI <200 niet helemaal compleet,1,1,0,0,Complete
+400,353,CZE_B08,CZE,CZE_groen_frankenstein/B-M/CZE_B08/IMAGES/CZE_B08.nii.gz,CZE_groen_frankenstein/B-M/CZE_B08/MASKS/CZE_B08.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+401,354,CZE_B09,CZE,,,B,,,"Endometriumcarcinoom in de tuba. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,1,,,,0,0,0,0,Missing
+402,355,CZE_B10,CZE,CZE_groen_frankenstein/B-M/CZE_B10/IMAGES/CZE_B10.nii.gz,CZE_groen_frankenstein/B-M/CZE_B10/MASKS/CZE_B10.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+403,356,CZE_B11,CZE,CZE_groen_frankenstein/B-M/CZE_B11/IMAGES/CZE_B11.nii.gz,CZE_groen_frankenstein/B-M/CZE_B11/MASKS/CZE_B11.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+404,357,CZE_B12_LB,CZE,CZE_groen_frankenstein/B-M/CZE_B12/IMAGES/CZE_B12.nii.gz,CZE_groen_frankenstein/B-M/CZE_B12/MASKS/CZE_B12_LB.nii.gz,B,OK,5.0,hiervan een vd twee,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+405,357,CZE_B12_RB,CZE,CZE_groen_frankenstein/B-M/CZE_B12/IMAGES/CZE_B12.nii.gz,CZE_groen_frankenstein/B-M/CZE_B12/MASKS/CZE_B12_RB.nii.gz,B,OK,5.0,hiervan een vd twee,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Missing
+406,358,CZE_B13,CZE,CZE_groen_frankenstein/B-M/CZE_B13/IMAGES/CZE_B13.nii.gz,CZE_groen_frankenstein/B-M/CZE_B13/MASKS/CZE_B13.nii.gz,B,OK,5.0,"dermoid, dus er voorlopig uit",yes,complete,1,D,Ja,NVT,,,,,,0,0,0,1,Complete
+407,359,CZE_B14,CZE,CZE_groen_frankenstein/B-M/CZE_B14/IMAGES/CZE_B14.nii.gz,CZE_groen_frankenstein/B-M/CZE_B14/MASKS/CZE_B14.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+408,360,CZE_B15,CZE,,,B,,,"Incorrect slice thickness. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+409,361,CZE_B16,CZE,CZE_groen_frankenstein/B-M/CZE_B16/IMAGES/CZE_B16.nii.gz,CZE_groen_frankenstein/B-M/CZE_B16/MASKS/CZE_B16.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI >200,1,1,0,0,Complete
+410,362,CZE_B17,CZE,CZE_groen_frankenstein/B-M/CZE_B17/IMAGES/CZE_B17.nii.gz,CZE_groen_frankenstein/B-M/CZE_B17/MASKS/CZE_B17.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,RMI >200,1,1,0,0,Complete
+411,363,CZE_B18,CZE,CZE_groen_frankenstein/B-M/CZE_B18/IMAGES/CZE_B18.nii.gz,CZE_groen_frankenstein/B-M/CZE_B18/MASKS/CZE_B18.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI >200,0,0,0,0,Complete
+412,364,CZE_B19,CZE,CZE_groen_frankenstein/B-M/CZE_B19/IMAGES/CZE_B19.nii.gz,CZE_groen_frankenstein/B-M/CZE_B19/MASKS/CZE_B19.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI <200, IOTA",1,1,0,0,Complete
+413,365,CZE_B20,CZE,missing_2/CZE_B20/IMAGES/CZE_B20.nii.gz,missing_2/CZE_B20/MASKS/CZE_B20.nii.gz,B,Artifacting visible at bottom of annotation mask,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+414,366,CZE_B21,CZE,CZE_groen_frankenstein/B-M/CZE_B21/IMAGES/CZE_B21.nii.gz,CZE_groen_frankenstein/B-M/CZE_B21/MASKS/CZE_B21.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,RMI <200,0,0,0,0,Complete
+415,367,CZE_B22,CZE,,,B,,,"Incorrect slice thickness. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+416,368,CZE_B23,CZE,CZE_groen_frankenstein/B-M/CZE_B23/IMAGES/CZE_B23.nii.gz,CZE_groen_frankenstein/B-M/CZE_B23/MASKS/CZE_B23.nii.gz,B,OK,5.0,"dermoid, dus er voorlopig uit",yes,complete,1,D,Ja,NVT,,,,,,0,0,0,1,Complete
+417,369,CZE_B24,CZE,CZE_groen_frankenstein/B-M/CZE_B24/IMAGES/CZE_B24.nii.gz,CZE_groen_frankenstein/B-M/CZE_B24/MASKS/CZE_B24.nii.gz,B,OK,5.0,,yes,complete,1,D,Ja,NVT,,,,,,0,0,0,1,Complete
+418,370,CZE_B25,CZE,CZE_groen_frankenstein/B-M/CZE_B25/IMAGES/CZE_B25.nii.gz,CZE_groen_frankenstein/B-M/CZE_B25/MASKS/CZE_B25.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,0,0,0,Complete
+419,371,CZE_B26,CZE,CZE_groen_frankenstein/B-M/CZE_B26/IMAGES/CZE_B26.nii.gz,CZE_groen_frankenstein/B-M/CZE_B26/MASKS/CZE_B26.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+420,372,CZE_B27,CZE,CZE_groen_frankenstein/B-M/CZE_B27/IMAGES/CZE_B27.nii.gz,CZE_groen_frankenstein/B-M/CZE_B27/MASKS/CZE_B27.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+421,373,CZE_B28,CZE,missing_2/CZE_B28/IMAGES/CZE_B28.nii.gz,missing_2/CZE_B28/MASKS/CZE_B28.nii.gz,B,Hipimplant. Mask does not seem to align with tumor everywhere. Should be checked. ,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+422,374,CZE_B30,CZE,missing_2/CZE_B30/IMAGES/CZE_B30.nii.gz,missing_2/CZE_B30/MASKS/CZE_B30.nii.gz,B,Shows artifacting and inconsistencies around border in several slices. Especially the high-frequency artifacts in the border are noticable.,2.0,opnieuw geupload in merged?,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+423,375,CZE_B31,CZE,CZE_groen_frankenstein/B-M/CZE_B31/IMAGES/CZE_B31.nii.gz,CZE_groen_frankenstein/B-M/CZE_B31/MASKS/CZE_B31.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+424,376,CZE_B32,CZE,CZE_groen_frankenstein/B-M/CZE_B32/IMAGES/CZE_B32.nii.gz,CZE_groen_frankenstein/B-M/CZE_B32/MASKS/CZE_B32.nii.gz,B,OK,5.0,,yes,complete,1,D,Ja,NVT,,,,,,0,0,0,1,Complete
+425,377,CZE_B33,CZE,CZE_groen_frankenstein/B-M/CZE_B33/IMAGES/CZE_B33.nii.gz,CZE_groen_frankenstein/B-M/CZE_B33/MASKS/CZE_B33.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+426,378,CZE_B34,CZE,CZE_groen_frankenstein/B-M/CZE_B34/IMAGES/CZE_B34.nii.gz,CZE_groen_frankenstein/B-M/CZE_B34/MASKS/CZE_B34.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+427,379,CZE_B35,CZE,CZE_groen_frankenstein/B-M/CZE_B35/IMAGES/CZE_B35.nii.gz,CZE_groen_frankenstein/B-M/CZE_B35/MASKS/CZE_B35.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+428,380,CZE_B36,CZE,CZE_groen_frankenstein/B-M/CZE_B36/IMAGES/CZE_B36.nii.gz,CZE_groen_frankenstein/B-M/CZE_B36/MASKS/CZE_B36.nii.gz,B,"Hipimplant, but quality of annotation is good",5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+429,381,CZE_B37,CZE,missing_3/CZE_B37/IMAGES/CZE_B37.nii.gz,missing_3/CZE_B37/MASKS/CZE_B37.nii.gz,B,,,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+430,382,CZE_B38_L,CZE,missing_2/CZE_B38_L/IMAGES/CZE_B38_L.nii.gz,missing_2/CZE_B38_L/MASKS/CZE_B38_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+431,382,CZE_B38_R,CZE,missing_2/CZE_B38_R/IMAGES/CZE_B38_R.nii.gz,missing_2/CZE_B38_R/MASKS/CZE_B38_R.nii.gz,B,,,,yes,complete,1,Nee,Ja,,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+432,383,CZE_B39,CZE,,,B,,,"Postoperatieve scan. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+433,384,CZE_B40,CZE,missing_3/CZE_B40/IMAGES/CZE_B40.nii.gz,missing_3/CZE_B40/MASKS/CZE_B40.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+434,385,CZE_B41,CZE,CZE_groen_frankenstein/B-M/CZE_B41/IMAGES/CZE_B41.nii.gz,CZE_groen_frankenstein/B-M/CZE_B41/MASKS/CZE_B41.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI <200, IOTA",1,1,0,0,Complete
+435,386,CZE_B42,CZE,CZE_groen_frankenstein/B-M/CZE_B42/IMAGES/CZE_B42.nii.gz,CZE_groen_frankenstein/B-M/CZE_B42/MASKS/CZE_B42.nii.gz,B,OK,5.0,,yes,complete,1,EB,Ja,NVT,,,,,,0,0,0,1,Complete
+436,387,CZE_B43,CZE,CZE_groen_frankenstein/B-M/CZE_B43/IMAGES/CZE_B43.nii.gz,CZE_groen_frankenstein/B-M/CZE_B43/MASKS/CZE_B43.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+437,388,CZE_B44_L,CZE,missing_2/CZE_B44_L/IMAGES/CZE_B44_L.nii.gz,missing_2/CZE_B44_L/MASKS/CZE_B44_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+438,388,CZE_B44_R,CZE,missing_2/CZE_B44_R/IMAGES/CZE_B44_R.nii.gz,missing_2/CZE_B44_R/MASKS/CZE_B44_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+439,389,CZE_B45,CZE,CZE_groen_frankenstein/B-M/CZE_B45/IMAGES/CZE_B45.nii.gz,CZE_groen_frankenstein/B-M/CZE_B45/MASKS/CZE_B45.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI >200, IOTA",1,1,0,0,Complete
+440,390,CZE_B46,CZE,CZE_groen_frankenstein/B-M/CZE_B46/IMAGES/CZE_B46.nii.gz,CZE_groen_frankenstein/B-M/CZE_B46/MASKS/CZE_B46.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+441,391,CZE_B47,CZE,missing_3/CZE_B47/IMAGES/CZE_B47.nii.gz,missing_3/CZE_B47/MASKS/CZE_B47.nii.gz,B,,,Mogelijk slechte kwaliteit annotatie ivm heupprothese,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+442,392,CZE_B48,CZE,missing_2/CZE_B48/IMAGES/CZE_B48.nii.gz,missing_2/CZE_B48/MASKS/CZE_B48.nii.gz,B,"Slice 47 shows loose pixels on the left side. Slice 62 shows that the border on the left side does not quite match up with the tumor (or at least, it seems like this to my untrained eyes). ",3.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,0.0,,1,1,0,0,Complete
+443,393,CZE_B49,CZE,missing_3/CZE_B49/IMAGES/CZE_B49.nii.gz,missing_3/CZE_B49/MASKS/CZE_B49.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+444,394,CZE_B50,CZE,CZE_groen_frankenstein/B-M/CZE_B50/IMAGES/CZE_B50.nii.gz,CZE_groen_frankenstein/B-M/CZE_B50/MASKS/CZE_B50.nii.gz,B,"Border is inconsistent, should probably be checked. ",4.0,,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+445,395,CZE_B51,CZE,missing_2/CZE_B51/IMAGES/CZE_B51.nii.gz,missing_2/CZE_B51/MASKS/CZE_B51.nii.gz,B,Slice 37 and slice 20 show some loose pixels,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,1.0,"RMI <200, IOTA",0,0,0,0,Complete
+446,396,CZE_B52,CZE,CZE_groen_frankenstein/B-M/CZE_B52/IMAGES/CZE_B52.nii.gz,CZE_groen_frankenstein/B-M/CZE_B52/MASKS/CZE_B52.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+447,397,CZE_B53,CZE,missing_3/CZE_B53/IMAGES/CZE_B53.nii.gz,missing_3/CZE_B53/MASKS/CZE_B53.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+448,398,CZE_B54,CZE,CZE_groen_frankenstein/B-M/CZE_B54/IMAGES/CZE_B54.nii.gz,CZE_groen_frankenstein/B-M/CZE_B54/MASKS/CZE_B54.nii.gz,B,OK,5.0,,yes,complete,1,D,Ja,NVT,,,,,,0,0,0,1,Complete
+449,399,CZE_B55,CZE,CZE_groen_frankenstein/B-M/CZE_B55/IMAGES/CZE_B55.nii.gz,CZE_groen_frankenstein/B-M/CZE_B55/MASKS/CZE_B55.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+450,400,CZE_B56_L,CZE,missing_2/CZE_B56_L/IMAGES/CZE_B56_L.nii.gz,missing_2/CZE_B56_L/MASKS/CZE_B56_L.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+451,400,CZE_B56_R,CZE,missing_2/CZE_B56_R/IMAGES/CZE_B56_R.nii.gz,missing_2/CZE_B56_R/MASKS/CZE_B56_R.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+452,401,CZE_B57,CZE,missing_3/CZE_B57/IMAGES/CZE_B57.nii.gz,missing_3/CZE_B57/MASKS/CZE_B57.nii.gz,B,,,"Scan erg wazig, geannoteerd in sagittale vlak",yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+453,402,CZE_B58,CZE,missing_3/CZE_B58/IMAGES/CZE_B58.nii.gz,missing_3/CZE_B58/MASKS/CZE_B58.nii.gz,B,,,,yes,complete,1,EB,Ja,,,,,,,0,0,0,1,Complete
+454,403,CZE_B59,CZE,,,B,,,"Geen pathologie adnexen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+455,404,CZE_B60,CZE,CZE_groen_frankenstein/B-M/CZE_B60/IMAGES/CZE_B60.nii.gz,CZE_groen_frankenstein/B-M/CZE_B60/MASKS/CZE_B60.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+456,405,CZE_B61,CZE,CZE_groen_frankenstein/B-M/CZE_B61/IMAGES/CZE_B61.nii.gz,CZE_groen_frankenstein/B-M/CZE_B61/MASKS/CZE_B61.nii.gz,B,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+457,406,CZE_B62-L,CZE,,,B,,,"twee tumoren en een afwijkende baarmoeder, zie map missing_2 hoort bij CZE_M48_R. Exclusie, te klein",,,0,Nee,Ja,Ja,,,,,,0,0,0,0,Missing
+458,407,CZE_B63_R,CZE,missing_2/CZE_B63_R/IMAGES/CZE_B63_R.nii.gz,missing_2/CZE_B63_R/MASKS/CZE_B63_R.nii.gz,B,,,Hoort bij CZE_M63-L,yes,complete,1,Nee,Ja,,,,0.0,0.0,,0,0,0,0,Complete
+459,407,CZE_M63_L,CZE,missing_2/CZE_M63_L/IMAGES/CZE_M63_L.nii.gz,missing_2/CZE_M63_L/MASKS/CZE_M63_L.nii.gz,M,OK,5.0,Hoort bij B63-R,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+460,408,CZE_B64_L,CZE,missing_2/CZE_B64_L/IMAGES/CZE_B64_L.nii.gz,missing_2/CZE_B64_L/MASKS/CZE_B64_L.nii.gz,B,,,Hoort bij CZE_BL01_R,yes,complete,1,Nee,Ja,,,,0.0,0.0,,0,0,0,0,Complete
+461,408,CZE_BL01_R,CZE,missing_2/CZE_BL01_R/IMAGES/CZE_BL01_R.nii.gz,missing_2/CZE_BL01_R/MASKS/CZE_BL01_R.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+462,409,CZE_BL02,CZE,CZE_groen_frankenstein_BL/CZE_BL02/IMAGES/CZE_BL02.nii.gz,CZE_groen_frankenstein_BL/CZE_BL02/MASKS/CZE_BL02.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+463,410,CZE_BL05,CZE,CZE_groen_frankenstein_BL/CZE_BL05/IMAGES/CZE_BL05.nii.gz,CZE_groen_frankenstein_BL/CZE_BL05/MASKS/CZE_BL05.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+464,411,CZE_BL07,CZE,CZE_groen_frankenstein_BL/CZE_BL07/IMAGES/CZE_BL07.nii.gz,CZE_groen_frankenstein_BL/CZE_BL07/MASKS/CZE_BL07.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+465,412,CZE_BL08,CZE,CZE_groen_frankenstein_BL/CZE_BL08/IMAGES/CZE_BL08.nii.gz,CZE_groen_frankenstein_BL/CZE_BL08/MASKS/CZE_BL08.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+466,413,CZE_BL09,CZE,CZE_groen_frankenstein_BL/CZE_BL09/IMAGES/CZE_BL09.nii.gz,CZE_groen_frankenstein_BL/CZE_BL09/MASKS/CZE_BL09.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+467,414,CZE_BL10,CZE,missing_2/CZE_BL10/IMAGES/CZE_BL10.nii.gz,missing_2/CZE_BL10/MASKS/CZE_BL10.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+468,415,CZE_BL11,CZE,CZE_groen_frankenstein_BL/CZE_BL11/IMAGES/CZE_BL11.nii.gz,CZE_groen_frankenstein_BL/CZE_BL11/MASKS/CZE_BL11.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+469,416,CZE_BL12,CZE,CZE_groen_frankenstein_BL/CZE_BL12/IMAGES/CZE_BL12.nii.gz,CZE_groen_frankenstein_BL/CZE_BL12/MASKS/CZE_BL12.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+470,417,CZE_BL13,CZE,CZE_groen_frankenstein_BL/CZE_BL13/IMAGES/CZE_BL13.nii.gz,CZE_groen_frankenstein_BL/CZE_BL13/MASKS/CZE_BL13.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+471,418,CZE_BL14,CZE,missing_2/CZE_BL14/IMAGES/CZE_BL14.nii.gz,missing_2/CZE_BL14/MASKS/CZE_BL14.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+472,419,CZE_BL15,CZE,CZE_groen_frankenstein_BL/CZE_BL15/IMAGES/CZE_BL15.nii.gz,CZE_groen_frankenstein_BL/CZE_BL15/MASKS/CZE_BL15.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+473,420,CZE_BL16,CZE,CZE_groen_frankenstein_BL/CZE_BL16/IMAGES/CZE_BL16.nii.gz,CZE_groen_frankenstein_BL/CZE_BL16/MASKS/CZE_BL16.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+474,421,CZE_BL17,CZE,CZE_groen_frankenstein_BL/CZE_BL17/IMAGES/CZE_BL17.nii.gz,CZE_groen_frankenstein_BL/CZE_BL17/MASKS/CZE_BL17.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+475,422,CZE_BL18,CZE,CZE_groen_frankenstein_BL/CZE_BL18/IMAGES/CZE_BL18.nii.gz,CZE_groen_frankenstein_BL/CZE_BL18/MASKS/CZE_BL18.nii.gz,BL,,,"Pseudomyxoma peritonei, exclusie",,,0,BL,Ja,,,,,,,0,0,0,0,Missing
+476,423,CZE_BL19,CZE,CZE_groen_frankenstein_BL/CZE_BL19/IMAGES/CZE_BL19.nii.gz,CZE_groen_frankenstein_BL/CZE_BL19/MASKS/CZE_BL19.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+477,424,CZE_BL20,CZE,CZE_groen_frankenstein_BL/CZE_BL20/IMAGES/CZE_BL20.nii.gz,CZE_groen_frankenstein_BL/CZE_BL20/MASKS/CZE_BL20.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+478,425,CZE_BL21_L,CZE,missing_2/CZE_BL21_L/IMAGES/CZE_BL21_L.nii.gz,missing_2/CZE_BL21_L/MASKS/CZE_BL21_L.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+479,425,CZE_BL21_R,CZE,missing_2/CZE_BL21_R/IMAGES/CZE_BL21_R.nii.gz,missing_2/CZE_BL21_R/MASKS/CZE_BL21_R.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+480,426,CZE_BL22,CZE,CZE_groen_frankenstein_BL/CZE_BL22/IMAGES/CZE_BL22.nii.gz,CZE_groen_frankenstein_BL/CZE_BL22/MASKS/CZE_BL22.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+481,427,CZE_BL23,CZE,CZE_groen_frankenstein_BL/CZE_BL23/IMAGES/CZE_BL23.nii.gz,CZE_groen_frankenstein_BL/CZE_BL23/MASKS/CZE_BL23.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+482,428,CZE_BL24,CZE,CZE_groen_frankenstein_BL/CZE_BL24/IMAGES/CZE_BL24.nii.gz,CZE_groen_frankenstein_BL/CZE_BL24/MASKS/CZE_BL24.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+483,429,CZE_BL25,CZE,CZE_groen_frankenstein_BL/CZE_BL25/IMAGES/CZE_BL25.nii.gz,CZE_groen_frankenstein_BL/CZE_BL25/MASKS/CZE_BL25.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+484,430,CZE_BL26,CZE,CZE_groen_frankenstein_BL/CZE_BL26/IMAGES/CZE_BL26.nii.gz,CZE_groen_frankenstein_BL/CZE_BL26/MASKS/CZE_BL26.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+485,431,CZE_BL27,CZE,CZE_groen_frankenstein_BL/CZE_BL27/IMAGES/CZE_BL27.nii.gz,CZE_groen_frankenstein_BL/CZE_BL27/MASKS/CZE_BL27.nii.gz,BL,,,,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+486,432,CZE_BL29,CZE,CZE_groen_frankenstein_BL/CZE_BL29/IMAGES/CZE_BL29.nii.gz,CZE_groen_frankenstein_BL/CZE_BL29/MASKS/CZE_BL29.nii.gz,BL,,,voorheen CZE_B29,yes,complete,1,BL,Ja,,,,,,,0,0,0,0,Missing
+487,433,CZE_M01,CZE,CZE_groen_frankenstein/B-M/CZE_M01/IMAGES/CZE_M01.nii.gz,CZE_groen_frankenstein/B-M/CZE_M01/MASKS/CZE_M01.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+488,434,CZE_M02,CZE,CZE_groen_frankenstein/B-M/CZE_M02/IMAGES/CZE_M02.nii.gz,CZE_groen_frankenstein/B-M/CZE_M02/MASKS/CZE_M02.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI >200, IOTA",1,1,0,0,Complete
+489,435,CZE_M03,CZE,missing_2/CZE_M03/IMAGES/CZE_M03.nii.gz,missing_2/CZE_M03/MASKS/CZE_M03.nii.gz,M,Artifacts on slice 29 and neighbours (straing horizontal and vertical lines) ,2.0,deze is 5mm scan veel te blurry,,,0,,,,,,,,,0,0,0,0,Complete
+490,436,CZE_M04,CZE,CZE_groen_frankenstein/B-M/CZE_M04/IMAGES/CZE_M04.nii.gz,CZE_groen_frankenstein/B-M/CZE_M04/MASKS/CZE_M04.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+491,437,CZE_M05,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+492,438,CZE_M06,CZE,missing/CZE_M06/IMAGES/CZE_M06.nii.gz,missing/CZE_M06/MASKS/CZE_M06.nii.gz,M,,,"Eigenlijk exclusie, maar geïncludeerd in ""Voorlopig 3.2""",yes,complete,1,Nee,Ja,,,,1.0,0.0,,1,1,0,0,Complete
+493,439,CZE_B65_R,CZE,CZE_groen_frankenstein/B-M/CZE_M07/IMAGES/CZE_M07.nii.gz,CZE_groen_frankenstein/B-M/CZE_M07/MASKS/CZE_B65_R.nii.gz,B,OK,5.0,hoort bij CZE_M07_L,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,andere zijde maligne,0,0,0,0,Complete
+494,439,CZE_M07_L,CZE,CZE_groen_frankenstein/B-M/CZE_M07/IMAGES/CZE_M07.nii.gz,CZE_groen_frankenstein/B-M/CZE_M07/MASKS/CZE_M07_L.nii.gz,M,OK,5.0,hoort bij CZE_B65_R,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,andere zijde benigne,0,0,0,0,Missing
+495,440,CZE_M08,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+496,441,CZE_M09,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+497,442,CZE_M10,CZE,missing_2/CZE_M10/IMAGES/CZE_M10.nii.gz,missing_2/CZE_M10/MASKS/CZE_M10.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+498,443,CZE_M11,CZE,missing/CZE_M11/IMAGES/CZE_M11.nii.gz,missing/CZE_M11/MASKS/CZE_M11.nii.gz,M,,,"Eigenlijk exclusie, maar geïncludeerd in ""Voorlopig 3.2""",yes,complete,1,Nee,Ja,,,,0.0,0.0,,0,0,0,0,Complete
+499,444,CZE_M12,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+500,445,CZE_M13,CZE,,,M,,,"Slices CT te dik. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+501,446,CZE_M14,CZE,CZE_groen_frankenstein/B-M/CZE_M14/IMAGES/CZE_M14.nii.gz,CZE_groen_frankenstein/B-M/CZE_M14/MASKS/CZE_M14.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+502,447,CZE_M15,CZE,CZE_groen_frankenstein/B-M/CZE_M15/IMAGES/CZE_M15.nii.gz,CZE_groen_frankenstein/B-M/CZE_M15/MASKS/CZE_M15.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+503,448,CZE_M17,CZE,missing_2/CZE_M17/IMAGES/CZE_M17.nii.gz,missing_2/CZE_M17/MASKS/CZE_M17.nii.gz,M,Border is inconsistent and does not align well with tumor border at a few places. ,3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+504,449,CZE_M18,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+505,450,CZE_M19,CZE,CZE_groen_frankenstein/B-M/CZE_M19/IMAGES/CZE_M19.nii.gz,CZE_groen_frankenstein/B-M/CZE_M19/MASKS/CZE_M19.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+506,451,CZE_M20,CZE,CZE_groen_frankenstein/B-M/CZE_M20/IMAGES/CZE_M20.nii.gz,CZE_groen_frankenstein/B-M/CZE_M20/MASKS/CZE_M20.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+507,452,CZE_M21,CZE,CZE_groen_frankenstein/B-M/CZE_M21/IMAGES/CZE_M21.nii.gz,CZE_groen_frankenstein/B-M/CZE_M21/MASKS/CZE_M21.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+508,453,CZE_M22,CZE,missing/CZE_M22/IMAGES/CZE_M22.nii.gz,missing/CZE_M22/MASKS/CZE_M22.nii.gz,M,,,"Eigenlijk exclusie, maar geïncludeerd in ""Voorlopig 3.2""",yes,complete,1,Nee,Ja,,,,0.0,0.0,,0,0,0,0,Complete
+509,454,CZE_M23,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+510,455,CZE_M24,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+511,456,CZE_M25,CZE,CZE_groen_frankenstein/B-M/CZE_M25/IMAGES/CZE_M25.nii.gz,CZE_groen_frankenstein/B-M/CZE_M25/MASKS/CZE_M25.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+512,457,CZE_M26,CZE,CZE_groen_frankenstein/B-M/CZE_M26/IMAGES/CZE_M26.nii.gz,CZE_groen_frankenstein/B-M/CZE_M26/MASKS/CZE_M26.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+513,458,CZE_M27,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+514,459,CZE_M29,CZE,CZE_groen_frankenstein/B-M/CZE_M29/IMAGES/CZE_M29.nii.gz,CZE_groen_frankenstein/B-M/CZE_M29/MASKS/CZE_M29.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+515,460,CZE_B66_L,CZE,missing_3/CZE_B66_L/IMAGES/CZE_B66_L.nii.gz,missing_3/CZE_B66_L/MASKS/CZE_B66_L.nii.gz,B,,,Hoort bij CZE_M30_R,yes,complete,1,D,Ja,,,,,,,0,0,0,1,Complete
+516,460,CZE_M30_R,CZE,missing_3/CZE_M30_R/IMAGES/CZE_M30_R.nii.gz,missing_3/CZE_M30_R/MASKS/CZE_M30_R.nii.gz,M,,,Slices 0.9mm. Kiemcel tumor. Hoort bij CZE_B66_L,yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+517,461,CZE_M31_LM,CZE,CZE_groen_frankenstein/B-M/CZE_M31/IMAGES/CZE_M31.nii.gz,CZE_groen_frankenstein/B-M/CZE_M31/MASKS/CZE_M31_LM.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+518,461,CZE_M31_RM,CZE,CZE_groen_frankenstein/B-M/CZE_M31/IMAGES/CZE_M31.nii.gz,CZE_groen_frankenstein/B-M/CZE_M31/MASKS/CZE_M31_RM.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Missing
+519,462,CZE_M32,CZE,CZE_groen_frankenstein/B-M/CZE_M32/IMAGES/CZE_M32.nii.gz,CZE_groen_frankenstein/B-M/CZE_M32/MASKS/CZE_M32.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI <200, IOTA",1,1,0,0,Complete
+520,463,CZE_M33_L,CZE,missing_3/CZE_M33_L/IMAGES/CZE_M33_L.nii.gz,missing_3/CZE_M33_L/MASKS/CZE_M33_L.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+521,463,CZE_M33_R,CZE,missing_3/CZE_M33_R/IMAGES/CZE_M33_R.nii.gz,missing_3/CZE_M33_R/MASKS/CZE_M33_R.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+522,464,CZE_M34,CZE,missing_2/CZE_M34/IMAGES/CZE_M34.nii.gz,missing_2/CZE_M34/MASKS/CZE_M34.nii.gz,M,"The annotation extends beyond the CT scan. It seems that the tumor is too big to fit in the CT volume, but the annotation does extend and so black area outside of the body is annotated. ",2.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+523,465,CZE_M35_LM,CZE,CZE_groen_frankenstein/B-M/CZE_M35/IMAGES/CZE_M35.nii.gz,CZE_groen_frankenstein/B-M/CZE_M35/MASKS/CZE_M35_LM.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+524,465,CZE_M35_RM,CZE,CZE_groen_frankenstein/B-M/CZE_M35/IMAGES/CZE_M35.nii.gz,CZE_groen_frankenstein/B-M/CZE_M35/MASKS/CZE_M35_RM.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Missing
+525,466,CZE_M37,CZE,CZE_groen_frankenstein/B-M/CZE_M37/IMAGES/CZE_M37.nii.gz,CZE_groen_frankenstein/B-M/CZE_M37/MASKS/CZE_M37.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+526,467,CZE_M38_LM,CZE,CZE_groen_frankenstein/B-M/CZE_M38/IMAGES/CZE_M38.nii.gz,CZE_groen_frankenstein/B-M/CZE_M38/MASKS/CZE_M38_LM.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Complete
+527,467,CZE_M38_RM,CZE,CZE_groen_frankenstein/B-M/CZE_M38/IMAGES/CZE_M38.nii.gz,CZE_groen_frankenstein/B-M/CZE_M38/MASKS/CZE_M38_RM.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,RMI >200,0,0,0,0,Missing
+528,468,CZE_M39,CZE,missing_2/CZE_M39/IMAGES/CZE_M39.nii.gz,missing_2/CZE_M39/MASKS/CZE_M39.nii.gz,M,Loose pixels on slice 36 and a few holes in mask,4.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+529,469,CZE_M40,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+530,470,CZE_M41,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+531,471,CZE_M42,CZE,missing_2/CZE_M42/IMAGES/CZE_M42.nii.gz,missing_2/CZE_M42/MASKS/CZE_M42.nii.gz,M,"On slice 42, a part of the tumor is suddenly missing. This part of the tumor (at the bottom) is annotated in slice 41 and 43, so it seems to be missing on slice 42. ",3.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,0.0,,1,1,0,0,Complete
+532,472,CZE_M43,CZE,missing_2/CZE_M43/IMAGES/CZE_M43.nii.gz,missing_2/CZE_M43/MASKS/CZE_M43.nii.gz,M,Some holes and some loose pixels in annotation mask. Aren't we looking at two tumors above eachother instead of 1 tumor? ,4.0,andere is de baarmoeder,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+533,473,CZE_M44-L,CZE,missing_2/CZE_M44-L 21cm/IMAGES/CZE_M44_L.nii.gz,missing_2/CZE_M44-L 21cm/MASKS/CZE_M44_L.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+534,473,CZE_M44-R,CZE,missing_2/CZE_M44-R 7cm/IMAGES/CZE_M44_R.nii.gz,missing_2/CZE_M44-R 7cm/MASKS/CZE_M44_R.nii.gz,M,,,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+535,474,CZE_M45,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+536,475,CZE_M46,CZE,missing_2/CZE_M46/IMAGES/CZE_M46.nii.gz,missing_2/CZE_M46/MASKS/CZE_M46.nii.gz,M,"Hipimplant, but quality of annotation can be improved. Mask does not align everywhere with tumor border!",3.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+537,476,CZE_M47,CZE,missing_2/CZE_M47/IMAGES/CZE_M47.nii.gz,missing_2/CZE_M47/MASKS/CZE_M47.nii,M,The border of the annotation mask is a bit inconsistent between slices,4.0,,yes,complete,1,Nee,Ja,Ja,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+538,477,CZE_M48,CZE,missing_2/CZE_M48/IMAGES/CZE_M48.nii.gz,missing_2/CZE_M48/MASKS/CZE_M48.nii.gz,M,Border is a bit inconsistent,4.0,twee tumoren en een afwijkende baarmoeder,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+539,478,CZE_M49_L,CZE,missing_3/CZE_M49_L/IMAGES/CZE_M49_L.nii.gz,missing_3/CZE_M49_L/MASKS/CZE_M49_L.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+540,478,CZE_M49_R,CZE,missing_3/CZE_M49_R/IMAGES/CZE_M49_R.nii.gz,missing_3/CZE_M49_R/MASKS/CZE_M49_R.nii.gz,M,,,,yes,complete,1,EM,Ja,,,,,,,0,0,0,1,Complete
+541,479,CZE_M50_L,CZE,missing_2/CZE_M50_L 8cm/IMAGES/CZE_M50_L.nii.gz,missing_2/CZE_M50_L 8cm/MASKS/CZE_M50_L.nii.gz,M,OK,5.0,8cm,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+542,479,CZE_M50_R,CZE,missing_2/CZE_M50_R 21cm/IMAGES/CZE_M50_R.nii.gz,missing_2/CZE_M50_R 21cm/MASKS/CZE_M50_R.nii.gz,M,,,21cm,yes,complete,1,Nee,Ja,,,,0.0,0.0,,0,0,0,0,Complete
+543,480,CZE_M51,CZE,missing_2/CZE_M51/IMAGES/CZE_M51.nii.gz,missing_2/CZE_M51/MASKS/CZE_M51.nii.gz,M,"Slice 40 and 46 show some slight defects. Slice 40 shows a very small island between the two larger islands. Slice 46 shows holes in the mask. Also, the border is maybe a bit inconsistent so should be checked.",2.0,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+544,481,CZE_M52,CZE,,,M,,,"Scan na neoadjuvante chemo. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+545,482,CZE_M53,CZE,,,M,,,"Evident Krukenberg tumor. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+546,483,CZE_M54,CZE,CZE_groen_frankenstein/B-M/CZE_M54/IMAGES/CZE_M54.nii.gz,CZE_groen_frankenstein/B-M/CZE_M54/MASKS/CZE_M54.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,RMI >200,1,1,0,0,Complete
+547,484,CZE_M55,CZE,CZE_groen_frankenstein/B-M/CZE_M55/IMAGES/CZE_M55.nii.gz,CZE_groen_frankenstein/B-M/CZE_M55/MASKS/CZE_M55.nii.gz,M,Few stray pixels but mask is fine otherwise,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+548,485,CZE_M56,CZE,CZE_groen_frankenstein/B-M/CZE_M56/IMAGES/CZE_M56.nii.gz,CZE_groen_frankenstein/B-M/CZE_M56/MASKS/CZE_M56.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+549,486,CZE_M57,CZE,CZE_groen_frankenstein/B-M/CZE_M57/IMAGES/CZE_M57.nii.gz,CZE_groen_frankenstein/B-M/CZE_M57/MASKS/CZE_M57.nii.gz,M,OK,5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,0.0,,1,1,0,0,Complete
+550,487,CZE_M58,CZE,,,M,,,"Interval debulking scan. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+551,488,CZE_M59,CZE,CZE_groen_frankenstein/B-M/CZE_M59/IMAGES/CZE_M59.nii.gz,CZE_groen_frankenstein/B-M/CZE_M59/MASKS/CZE_M59.nii.gz,M,"Hipimplant, but quality of annotation is good",5.0,,yes,complete,1,Nee,Ja,NVT,,,0.0,0.0,,0,0,0,0,Complete
+552,489,CZE_M60,CZE,,,M,,,"Evident Krukenberg tumor. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+553,490,CZE_M61_L,CZE,missing_2/CZE_M61_L/IMAGES/CZE_M61_L.nii.gz,missing_2/CZE_M61_L/MASKS/CZE_M61_L.nii.gz,M,OK,5.0,17cm,yes,complete,1,Nee,Ja,NVT,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+554,490,CZE_M61_R,CZE,missing_2/CZE_M61_R/IMAGES/CZE_M61_R.nii.gz,missing_2/CZE_M61_R/MASKS/CZE_M61_R.nii.gz,M,,,"4,5cm",yes,complete,1,Nee,Ja,,,,0.0,1.0,"RMI >200, IOTA",0,0,0,0,Complete
+555,491,CZE_M62,CZE,missing/CZE_M62/IMAGES/CZE_M62.nii.gz,missing/CZE_M62/MASKS/CZE_M62.nii.gz,M,"Hip implant, quality of annotation is okay I think?",4.0,blijkt al PA bewezen,yes,,0,,,,,,,,,0,0,0,0,Complete
+556,492,CZE_M64,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+557,493,CZE_M65,CZE,CZE_groen_frankenstein/B-M/CZE_M65/IMAGES/CZE_M65.nii.gz,CZE_groen_frankenstein/B-M/CZE_M65/MASKS/CZE_M65.nii.gz,M,"Hipimplant, but quality of annotation is good",5.0,,yes,complete,1,Nee,Ja,NVT,,,1.0,1.0,"RMI <200, IOTA",1,1,0,0,Complete
+558,494,CZE_M66,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+559,495,CZE_M67,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+560,496,CZE_M68,CZE,,,M,,,"PA bewezen. Klinische reden, zie mail ""dataset 2.1"" van Mon 24/04/2023 13:25",,,0,,,,,,,,,0,0,0,0,Missing
+561,497,CZE_M69_L,CZE,missing_2/CZE_M69_L/IMAGES/CZE_M69_L.nii.gz,missing_2/CZE_M69_L/MASKS/CZE_M69_L.nii.gz,M,,,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+562,497,CZE_M69_R,CZE,missing_2/CZE_M69_R/IMAGES/CZE_M69_R.nii.gz,missing_2/CZE_M69_R/MASKS/CZE_M69_R.nii.gz,M,,,,yes,complete,1,Nee,Ja,Ja,,,0.0,0.0,,0,0,0,0,Complete
+563,498,CZE_M70,CZE,CZE_groen_frankenstein/B-M/CZE_M70/IMAGES/CZE_M70.nii.gz,CZE_groen_frankenstein/B-M/CZE_M70/MASKS/CZE_M70.nii.gz,M,,,,yes,complete,1,Nee,Ja,,,,1.0,0.0,,1,1,0,0,Complete
+564,499,CZE_BL28,CZE,missing_3/CZE_BL28/IMAGES/CZE_BL28.nii.gz,missing_3/CZE_BL28/MASKS/CZE_BL28.nii.gz,BL,OK,5.0,voorheen CZE_M71,yes,complete,1,BL,Ja,NVT,,,,0.0,,0,0,0,0,Missing
