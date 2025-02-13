@@ -157,7 +157,7 @@ Run `ovacadx/scripts/Radiomics/Experiment_score_table_2_SPIE/score_table.py ` Ma
 
 ## Figure 5
 AFTER training, testing and ensembling all model scores (see section 6):
-Run `/home/eloy/Documents/Graduation_project/Code/ovacadx/scripts/Radiomics/Analysis/Half_subset_auc.py`
+Run `ovacadx/scripts/Radiomics/Analysis/Half_subset_auc.py`
 Note that the first time you run this, you must uncomment the code that evaluates all the half-group AUCs. That section of code will save the scores and polarities to a file 'half_group_side.pkl' and 'half_group_score.pkl', which can be used in subsequent analysis. Hence after running that section of code once, it can be commented again for convenience :). 
 
 
@@ -183,7 +183,7 @@ Now, we must also train the deep-learning models with the rotation augmentation 
 
 
 
- # 7 Disclaimer
+ ## Disclaimer
  The code in this repo was copied from a larger, internal repository that also includes files that were used during development. I hope that I copied all relevant files, but if some are missing, please raise an issue in this repo. 
  
 
