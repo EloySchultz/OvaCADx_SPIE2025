@@ -183,7 +183,8 @@ Now, we must also train the deep-learning models with the rotation augmentation 
 
 
 # 7 Footnote on AUC_median
-Our publication states: "For the full list of AUCmedian of all radiomic features, see https://github.com/EloySchultz/OvaCADx_SPIE2025"
+Our publication states: _"For the full list of AUCmedian of all radiomic features, see https://github.com/EloySchultz/OvaCADx_SPIE2025"_
+
 The full list of AUC_median can be found here: `ovacadx/scripts/Radiomics/Analysis/Optimal_half_AUCs_per_feature.csv`. This list was generated using `ovacadx/scripts/Radiomics/Analysis/Half_subset_auc.py` (by uncommenting the section that evaluates all half-group AUCs). 
 
 
