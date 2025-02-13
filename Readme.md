@@ -11,7 +11,7 @@ This repository details the code used for the SPIE-publication titled "Identifyi
 4.  [Deep Learning Instructions](#4-deep-learning-instructions)
 5.  [Reproducing Results from the SPIE-publication](#5-How-to-reproduce-the-results-from-the-SPIE-publication?)
 6.  [Model Training Instructions](#6-reproduction-of-our-model-trainings-for-tables)
-7.  [Footnote on AUC_median](#7-Footnote-on-AUC_median:)
+7.  [Footnote on AUC_median](#7-Footnote-on-AUC_median)
 
 # 1. Interpreters 
 In order to run our code, there are two interpreters required. These are called "GP_1" and "GP_3".  The requirements for these environments, including packages and versions, can be found in requirements_GP1.txt and requirements_GP3.txt. The GP_1 interpreter should be used by default (for all training, inference, etc).  The GP_3 interpreter is used only for preprocessing the LIDC dataset. As of writing this, the PyLIDC library is outdated and uses numpy.int which is deprecated in newer versions of numpy. Hence the GP_3 interpreter uses an older version of Numpy. We recommend that you use the versions supplied in the requirements.txt documents for both interpreters.  
@@ -182,7 +182,7 @@ Now, we must also train the deep-learning models with the rotation augmentation 
 9. Run `MIL/experiments/experiment_3DCNN_LIDCRotate/3dcnn_lung_rotate.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "LUNG" 
 
 
-# 7 Footnote on AUC_median:
+# 7 Footnote on AUC_median
 Our publication states: "For the full list of AUCmedian of all radiomic features, see https://github.com/EloySchultz/OvaCADx_SPIE2025"
 The full list of AUC_median can be found here: `ovacadx/scripts/Radiomics/Analysis/Optimal_half_AUCs_per_feature.csv`. This list was generated using `ovacadx/scripts/Radiomics/Analysis/Half_subset_auc.py` (by uncommenting the section that evaluates all half-group AUCs). 
 
