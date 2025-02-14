@@ -24,7 +24,7 @@ It is recommended to open the project in the `data_management` folder (i.e., set
 
 ### 2.1 Ovarian Dataset
 
-To collect data, create a `datasets.csv` file. This is dataset 3.4 from the Flux-server at TU/e. The root directory must contain the `datasets.csv` with the following columns:
+Collect your ovarian data and create a `datasets.csv` file. The root directory must contain the `datasets.csv` with the following columns:
 
 1. **Patient ID**: (Int) Unique identifier for each patient.
 2. **Tumor ID**: (String) Unique identifier for each tumor (starts with center abbreviation, in our CZE, BRE, or AVL in our case.).
@@ -35,6 +35,7 @@ To collect data, create a `datasets.csv` file. This is dataset 3.4 from the Flux
 7. **Inclusion**: (Int) Whether the sample is included in the research (1 or 0).
 8. **Outlier**: (Int) Whether the sample is an easy outlier, such as dermoids (1 for outlier, 0 for non-outlier). This is not used in the SPIE publication and can be skipped.
 
+For my colleagues at the TU/e, this is dataset 3.4 from the Flux-server at SPS-VCA.
 #### Required Steps:
 - Run the preprocessing script:   
   `/ovacadx/scripts/preprocess_data.py --data_path "Path to original dataset with datasets.csv" --output_path "Path to store processed files"`.  
@@ -124,7 +125,7 @@ Make sure all previous sections are completed. Follow these steps to reproduce f
 - **Table 2**: After training, testing, and ensembling, run `/ovacadx/scripts/Radiomics/Experiment_score_table_2_SPIE/score_table.py`.
 - **Figure 5**: After training, testing, and ensembling, run `/ovacadx/scripts/Radiomics/Analysis/Half_subset_auc.py`.
 
-## 6. Model Training Instructions (For Tables)
+## 6. Model Training Instructions
 
 Follow these steps to train the models presented in the publication (5 models on 2 datasets):
 
