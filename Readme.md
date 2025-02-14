@@ -135,6 +135,7 @@ Follow these steps to train the models presented in the publication (5 models on
 5. Run `/MIL/experiments/experiment_3DCNN_LUNG/experiment_3DCNN_LUNG.py`.
 
 Enable rotation augmentation:
+
 6. Run `/MIL/experiments/experiment_ov_rotate/Ov_rotate.py`.
 7. Run `/MIL/experiments/experiment_lung_rotate/lung_rotate.py`.
 8. Run `/MIL/experiments/experiment_3DCNN_OvarianRotate/3dcnn_ovarian_rotate.py`.
