@@ -9,7 +9,7 @@ This repository details the code used for the SPIE-publication titled "Identifyi
     -   [LIDC Dataset](#22-lidc-dataset)
 3.  [Extracting Radiomic Features](#3-extracting-radiomic-features)
 4.  [Deep Learning Instructions](#4-deep-learning-instructions)
-5.  [Reproducing Results from the SPIE-publication](#5-How-to-reproduce-the-results-from-the-SPIE-publication?)
+5.  [Reproducing Results from the SPIE-publication](#5-Reproduce-results-from-the-SPIE-publication)
 6.  [Model Training Instructions](#6-reproduction-of-our-model-trainings-for-tables)
 7.  [Footnote on AUC_median](#7-Footnote-on-AUC_median)
 
@@ -133,7 +133,7 @@ For our deep learning experiments, we keep the order of train.py, test.py, ens_n
 
 If you experience dataloader crashes, consider changing `--num_workers 15`. (Reduce for less speed but more stability) 
 
-# 5. How to reproduce the results from the SPIE publication? 
+# 5. Reproduce results from the SPIE publication
 ## Figure 1. 
 Run `/MIL/experiments/experiment_show_tumors/show_tumors.py` 
 
