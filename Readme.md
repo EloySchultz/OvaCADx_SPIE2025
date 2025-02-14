@@ -38,7 +38,7 @@ Collect your data and create a datasets.csv file. (For us at TU/e, this is datas
 In the output path, a file will be created called "preprocessed_data.csv". This script will resample the images to 3mm when needed and performs basic data-consistency checks. 
 
 - [OPTIONAL] If your datasets contains inconsistencies, consider running: 
-"/Data_management/Preprocess_ovarian_boekhouding.py" as it does more sophisticated error checking. 
+`/Data_management/Preprocess_ovarian_boekhouding.py` as it does more sophisticated error checking. 
 
 - [OPTIONAL] If you want to manually check the quality of the annotation masks, run `/Data_management/Manual_data_check.py`. This file will play the CT-scans as videos for easy review. The controls are as follows: 
 Space ( ): Toggles pause. Pressing it pauses and resumes the video.
@@ -68,7 +68,7 @@ https://pylidc.github.io/install.html
 
 - [**REQUIRED**]  We convert the LIDC dataset to Nifti format so that it is in the same format and data structure as our ovarian data. This is done using the script (```/Data_management/Preprocess_LIDC_to_NIFTI.py```)
 
-- [**REQUIRED**] Similarly to the LIDC dataset, run  `/ovacadx/scripts/preprocess_data.py` on the LIDC NIFTI directory to create a copy of standardized CT-scans,  Then run `Data_management/Create_faster_ovarian.py` to create a cropped copy of the dataset for faster data loading. Set DATA_DIR in the top of the file to the preprocessed folder that contains preprocessed_data.csv. 
+- [**REQUIRED**] Similarly to the LIDC dataset, run  `/ovacadx/scripts/preprocess_data.py` on the LIDC NIFTI directory to create a copy of standardized CT-scans,  Then run `Data_management/Create_faster_ovarian.py` to create a cropped copy of the LIDC dataset for faster data loading. Set DATA_DIR in the top of the file to the preprocessed folder that contains preprocessed_data.csv. 
 
 After following the steps for both ovarian and lung nodule dataset, you should have 4 dataset folders:
 1. Ovarian/NIFTI
@@ -84,12 +84,12 @@ For any radiomics-based experiments, it is a good idea to open the project in th
   
 To run radiomic experiments, you first need to extract radiomic features. As extracting features takes some time, we extract the features once and save them on the disk. 
 
-- Run "/Code/ovacadx/scripts/Radiomics/extract_features.py" . This will save a 3DRadiomicfeatures.json in the root directory of the dataset. This file will be read in the radiomic-based experiments. 
+- Run `/Code/ovacadx/scripts/Radiomics/extract_features.py`. This will save a 3DRadiomicfeatures.json in the root directory of the dataset, to be used in all subsequent radiomics-based scripts. 
 
 Generally for radiomics-based experiments, the order of running files looks something like this: 
-1. Run /Code/ovacadx/scripts/Radiomics/train.py which trains 25-fold nested cross validation. It is important that for the radiomics experiments, you set the correct feature selection pipeline you want to use. For more details on this, see 3.1 in this readme.
-2. Run test.py on the directory that contains the train results
-3. Run /Code/ovacadx/scripts/Radiomics/Analysis/ens_no_logits2.py. This file ensembles the test-set results for each of the inner loops, and then applies bootstrapping to obtain emperical confidence intervals. The resulting metrics are stored in "results[MODEL_NAME]_compiled_summary.csv"
+1. Run `/Code/ovacadx/scripts/Radiomics/train.py` which trains 25-fold nested cross validation. It is important that for the radiomics experiments, you set the correct feature selection pipeline you want to use. For more details on this, see 3.1 in this readme.
+2. Run `/Code/ovacadx/scripts/Radiomics/test.py` on the directory that contains the train results
+3. Run `/Code/ovacadx/scripts/Radiomics/Analysis/ens_no_logits2.py`. This file ensembles the test-set results for each of the inner loops, and then applies bootstrapping to obtain emperical confidence intervals. The resulting metrics are stored in "results[MODEL_NAME]_compiled_summary.csv"
 - I highly recommend to combine all of these steps for reproducilbility. For an example, check `/Code/ovacadx/scripts/Radiomics/Experiment_radiomics_SPIE/Experiment_SPIE.py`. This file first runs train.py, then test.py and then ens_no_logits2.py. Doing it like this ensures consistency in hyperparameters and makes it easier to reproduce your experiments. 
 
 ## 3.1 Setting the feature selection pipeline in radiomics experiments
@@ -115,25 +115,27 @@ This will happen:
 -   Finally, the black-box Random Forest-based feature elimination is applied without a predefined feature count (determined automatically).
 - After this, the four classifiers (NN, RF, SVM, LR) are trained.
 
-Coincidentally, the pipeline described above is the "default pipeline" that is used in our publication, adopted from Li et al. 
+Coincidentally, the pipeline described above is the **"default pipeline"** that is used in our publication, adopted from Li et al. 
 
 All options that are implemented for feature selection are detailed below:
 
 - BLACK_BOX: Uses greedy feature elimination based on random-forest feature importance. The number of features you use does not matter, as this function automatically determines the optimal number of features to retain. Beware to use other feature selectors before black box, as the algorithm is very slow for large numbers of features!
 - PCA: Principal component analyisis. The number of features is the number of prinipal components that are calculated. Please note that PCA can only be applied as the last step of the feature selection pipeline! (Other options not implemented due to time constraints) 
 - SELECT_PERCENTILE: uses univariate analysis ( https://scikit-learn.org/1.5/modules/generated/sklearn.feature_selection.SelectPercentile.html) 
-- PS: uses peason-spearman correlation, adopted from Li et al. and then modified for better performance Please check the graduation report for details on the modifications (iterative approach instead of fixed threshold).
+- PS: uses peason-spearman correlation, adopted from Li et al. and then modified for better performance.
 - ANOVA: Analysis of variance 
 - KS: Kolmogorov Smearnov feature selection, keeping N best the features with lowest interclass similarity.
 - WD: Wasserstein distance feature selection, similar to KS but uses wasserstein distance. 
 - KS_alpha: KS feature selection, but now with option alpha so that you can mix between interclass and intraclass features. When alpha = 0, features with optimal intraclass similarity dominate. When alpha = 1, features with optimal interclass similarity dominate. 
 
 # 4. Deep Learning Instructions
-For our deep learning experiments, we keep the order of train.py, test.py, ens_no_logits2.py. Note that we use the ens_no_logits2.py that is located in /ovacadx/scripts/Radiomics/Analysis/ens_no_logits2.py, so that both radiomics and deeplearning experiments have the same bootstrapping analysis applied. Again, it is good to use a single python file that runs all needed files at once. For example, see "/MIL/experiments/experiment_ovarian_baseline/Ovarian_baseline.py". 
+For our deep learning experiments, we keep the order of train.py, test.py, ens_no_logits2.py. Note that we use the ens_no_logits2.py that is located in `/ovacadx/scripts/Radiomics/Analysis/ens_no_logits2.py`, so that both radiomics and deeplearning experiments have the same bootstrapping analysis applied. Again, it is good to use a single python file that runs all needed files at once. For example, see `/MIL/experiments/experiment_ovarian_baseline/Ovarian_baseline.py`. For training the models proposed in our publication, see section 6. 
 
 If you experience dataloader crashes, consider changing `--num_workers 15`. (Reduce for less speed but more stability) 
 
 # 5. Reproduce results from the SPIE publication
+Make sure you have followed all steps from section 1,2,3 and 4. 
+
 ## Figure 1. 
 Run `/MIL/experiments/experiment_show_tumors/show_tumors.py` 
 
@@ -162,25 +164,24 @@ Note that the first time you run this, you must uncomment the code that evaluate
 
 
 # 6 Reproduction of our model trainings (for tables)
-In our SPIE publication, we present 5 models. Instructions on how to train each model are below: 
+In our SPIE publication, we present 5 models trained on 2 datasets (Table 2 in paper, 10 combinations in total). Instructions on how to train each model are below: 
 
-General note: If you want to train the models, look through each file for "#os.system(command)", remove the # so that the line will run. We have commented these lines out for our convenience (when re-running an analysis script for example), so that the model does not re-train when we are debugging evaluation for example. So, just make sure that os.system is uncommented everywhere if you wish to retrain. 
+1. Run `ovacadx/scripts/Radiomics/Experiment_radiomics_SPIE/Experiment_SPIE.py`. This file will generate all results for the four different classifiers (SVM, RF, NN, LR) for both ovarian and lund nodule datasets. Make sure that you specify the output directories in `experiment_folders` and the dataset directories in `data_dirs` at the top of the python file. 
+Use the default pipeline, i.e. use `pipeline = ['SELECT_PERCENTILE','PS','BLACK_BOX']`, `features = ['10','40','0']`. Note that in the SPIE publication, only the result using the NN classifier was published. This is because the difference between classifiers is small and we figured that it is better to only have a single radiomics result as a baseline. 
 
-1. Run `ovacadx/scripts/Radiomics/Experiment_radiomics_SPIE/Experiment_SPIE.py`. This file will generate all results for the four different classifiers (SVM, RF, NN, LR) for both ovarian and lund nodule datasets. Make sure that you specify the output directories in `experiment_folders` and the dataset directories in "data_dirs" at the top of the python file. 
-Use the default pipeline, i.e. use pipeline = ['SELECT_PERCENTILE','PS','BLACK_BOX'], features = ['10','40','0']. Note that in the SPIE publication, only the result using the NN classifier was published. This is because the difference between classifiers is small and we figured that it is better to only have a single radiomics result as a baseline. 
-
-2. Run `/MIL/experiments/experiment_ovarian_baseline/Ovarian_baseline.py`. Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "OVARY"
-3. Run `/MIL/experiments/experiment_lung_baseline/exp_lung_baseline.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "LUNG"
-4. Run `MIL/experiments/experiment_3DCNN_ovarian/exp_3DCNN_ovarian_baseline.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "OVARY" 
-5. Run `MIL/experiments/experiment_3DCNN_LUNG/experiment_3DCNN_LUNG.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "LUNG" 
+2. Run `/MIL/experiments/experiment_ovarian_baseline/Ovarian_baseline.py`. Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. `my_type` should be "OVARY"
+3. Run `/MIL/experiments/experiment_lung_baseline/exp_lung_baseline.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. `my_type` should be "LUNG"
+4. Run `MIL/experiments/experiment_3DCNN_ovarian/exp_3DCNN_ovarian_baseline.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. `my_type` should be "OVARY" 
+5. Run `MIL/experiments/experiment_3DCNN_LUNG/experiment_3DCNN_LUNG.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. `my_type` should be "LUNG" 
 
 Now, we must also train the deep-learning models with the rotation augmentation enabled. 
 
-6. Run `/MIL/experiments/experiment_ov_rotate/Ov_rotate.py`. Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "OVARY"
-7. Run `MIL/experiments/experiment_lung_rotate/lung_rotate.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "LUNG"
-8. Run `MIL/experiments/experiment_3DCNN_OvarianRotate/3dcnn_ovarian_rotate.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "OVARY" 
-9. Run `MIL/experiments/experiment_3DCNN_LIDCRotate/3dcnn_lung_rotate.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. "my_type" should be "LUNG" 
+6. Run `/MIL/experiments/experiment_ov_rotate/Ov_rotate.py`. Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. `my_type` should be "OVARY"
+7. Run `MIL/experiments/experiment_lung_rotate/lung_rotate.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. `my_type` should be "LUNG"
+8. Run `MIL/experiments/experiment_3DCNN_OvarianRotate/3dcnn_ovarian_rotate.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. `my_type` should be "OVARY" 
+9. Run `MIL/experiments/experiment_3DCNN_LIDCRotate/3dcnn_lung_rotate.py` Make sure to configure 'experiment_folder' and 'data_dir' in the header of the python file. `my_type` should be "LUNG" 
 
+**General note:** If you want to train the models, look through each file for `#os.system(command)`, remove the `#` so that the line will run. We have commented these lines out for our convenience (when re-running an analysis script for example), so that the model does not re-train when we are debugging evaluation for example. So, just make sure that `os.system()` is uncommented everywhere if you wish to retrain. 
 
 # 7 Footnote on AUC_median
 Our publication states: _"For the full list of AUCmedian of all radiomic features, see https://github.com/EloySchultz/OvaCADx_SPIE2025"_
