@@ -27,16 +27,16 @@ It is recommended to open the project in the `data_management` folder (i.e., set
 To collect data, create a `datasets.csv` file. This is dataset 3.4 from the Flux-server at TU/e. The root directory must contain the `datasets.csv` with the following columns:
 
 1. **Patient ID**: (Int) Unique identifier for each patient.
-2. **Tumor ID**: (String) Unique identifier for each tumor (starts with CZE, BRE, or AVL).
+2. **Tumor ID**: (String) Unique identifier for each tumor (starts with center abbreviation, in our CZE, BRE, or AVL in our case.).
 3. **Center**: (String) The center where the scan was done (CZE, BRE, or AVL).
 4. **Image path**: (String) Path to image nifti file, ending in `.nii.gz`.
 5. **Annotation path**: (String) Path to annotation nifti file, ending in `.nii.gz`.
 6. **Label**: (String) Label (B: benign, M: malignant, BL: borderline).
 7. **Inclusion**: (Int) Whether the sample is included in the research (1 or 0).
-8. **Outlier**: (Int) Whether the sample is an easy outlier (1 for outlier, 0 for non-outlier).
+8. **Outlier**: (Int) Whether the sample is an easy outlier, such as dermoids (1 for outlier, 0 for non-outlier). This is not used in the SPIE publication and can be skipped.
 
 #### Required Steps:
-- Run the preprocessing script:  
+- Run the preprocessing script:   
   `/ovacadx/scripts/preprocess_data.py --data_path "Path to original dataset with datasets.csv" --output_path "Path to store processed files"`.  
   This generates a `preprocessed_data.csv` in the output path, resampling images to 3mm when needed.
 
@@ -44,7 +44,7 @@ To collect data, create a `datasets.csv` file. This is dataset 3.4 from the Flux
   Run `/Data_management/Preprocess_ovarian_boekhouding.py` for more sophisticated error checking.
   
 - Optional manual review:  
-  Use `/Data_management/Manual_data_check.py` for manually reviewing annotation masks (interactive video controls for quality assurance).
+  Use `/Data_management/Manual_data_check.py` for manually reviewing annotation masks (interactive video controls for quality assurance). 
 
 - Required:  
   Crop the ovarian dataset around tumors for faster disk reads during training (from 30.5GB to approx 1.3GB):  
@@ -109,9 +109,9 @@ The feature selection pipeline is controlled by the `--pipeline` and `--features
 ## 4. Deep Learning Instructions
 
 For deep learning, the order of operations is the same as for radiomics:  
-`train.py` -> `test.py` -> `ens_no_logits2.py`.
-
-Ensure both radiomics and deep learning analyses use the same bootstrapping approach by using the same `ens_no_logits2.py`. See `/MIL/experiments/experiment_ovarian_baseline/Ovarian_baseline.py` for an example.
+`train.py` -> `test.py` -> `ens_no_logits2.py`. 
+See `/MIL/experiments/experiment_ovarian_baseline/Ovarian_baseline.py` for an example.
+Both radiomics and deep learning analyses use the same bootstrapping approach by using the same `ens_no_logits2.py`. 
 
 ## 5. Reproducing Results from the SPIE Publication
 
@@ -128,7 +128,7 @@ Make sure all previous sections are completed. Follow these steps to reproduce f
 
 Follow these steps to train the models presented in the publication (5 models on 2 datasets):
 
-1. Run `/ovacadx/scripts/Radiomics/Experiment_radiomics_SPIE/Experiment_SPIE.py`.
+1. Run `/ovacadx/scripts/Radiomics/Experiment_radiomics_SPIE/Experiment_SPIE.py`. (This generates all radiomics-based results for both datasets, and for multiple classifiers. Only the NN classifier result is used in the SPIE publication). 
 2. Run `/MIL/experiments/experiment_ovarian_baseline/Ovarian_baseline.py`.
 3. Run `/MIL/experiments/experiment_lung_baseline/exp_lung_baseline.py`.
 4. Run `/MIL/experiments/experiment_3DCNN_ovarian/exp_3DCNN_ovarian_baseline.py`.
@@ -140,7 +140,7 @@ Enable rotation augmentation:
 8. Run `/MIL/experiments/experiment_3DCNN_OvarianRotate/3dcnn_ovarian_rotate.py`.
 9. Run `/MIL/experiments/experiment_3DCNN_LIDCRotate/3dcnn_lung_rotate.py`.
 
-Ensure to uncomment `os.system(command)` lines for retraining.
+Ensure to uncomment `#os.system(command)` lines for retraining (We have uncommented the training here and there for convenience during evaluation).
 
 ## 7. Footnote on AUC_median
 
